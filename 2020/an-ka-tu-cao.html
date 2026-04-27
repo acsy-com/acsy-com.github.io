@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.acsy.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="最近在好几次会议上，都听到某地的某检察官因为案卡填报出现问题被通报的消息。一张小小的案卡，为什么会让多地的检察官栽了跟头，这到底是检察官工作能力的扭曲，还是他们责任心的沦丧，抑或是有什么其他不为人知的原因呢？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于案卡和系统，可以开一场三天三夜的吐槽大会（CU检）">
+<meta property="og:url" content="https://blog.acsy.com/2020/an-ka-tu-cao.html">
+<meta property="og:site_name" content="纵横沙龙">
+<meta property="og:description" content="最近在好几次会议上，都听到某地的某检察官因为案卡填报出现问题被通报的消息。一张小小的案卡，为什么会让多地的检察官栽了跟头，这到底是检察官工作能力的扭曲，还是他们责任心的沦丧，抑或是有什么其他不为人知的原因呢？">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-08-31T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-27T04:37:03.682Z">
+<meta property="article:author" content="Robin">
+<meta property="article:tag" content="极客纵横,纵横沙龙,法律,信息化,数字化,智能化,检察业务应用系统,数字检察,大数据法律监督模型,检察智能化应用">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.acsy.com/2020/an-ka-tu-cao.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.acsy.com/2020/an-ka-tu-cao.html","path":"2020/an-ka-tu-cao.html","title":"关于案卡和系统，可以开一场三天三夜的吐槽大会（CU检）"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>关于案卡和系统，可以开一场三天三夜的吐槽大会（CU检） | 纵横沙龙</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">纵横沙龙</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Robin的Blog</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E7%82%B9%E5%88%B0%E8%AE%A9%E4%BD%A0%E6%80%80%E7%96%91%E4%BA%BA%E7%94%9F%E7%9A%84%E2%80%9C%E5%90%A6%E2%80%9D"><span class="nav-number">1.</span> <span class="nav-text">1.点到让你怀疑人生的“否”</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%A1%AB%E6%8A%A5%E4%BA%86%E9%82%A3%E4%B9%88%E5%A4%9A%E4%BF%A1%E6%81%AF%EF%BC%8C%E9%9C%80%E8%A6%81%E7%BB%9F%E8%AE%A1%E6%95%B0%E6%8D%AE%E7%9A%84%E6%97%B6%E5%80%99%E8%BF%98%E6%98%AF%E9%9D%A0%E6%89%8B%E3%80%82"><span class="nav-number">2.</span> <span class="nav-text">2.填报了那么多信息，需要统计数据的时候还是靠手。</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E6%9C%89%E4%BA%9B%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%AE%BE%E8%AE%A1%E8%AE%A9%E4%BD%A0%E5%A1%AB%E6%8A%A5%E6%97%B6%E4%B8%8D%E4%BB%85%E6%80%80%E7%96%91%E4%BA%BA%E7%94%9F%EF%BC%8C%E7%94%9A%E8%87%B3%E8%B4%A8%E7%96%91%E8%AE%BE%E8%AE%A1%E8%80%85%E7%9A%84%E6%99%BA%E5%95%86"><span class="nav-number">3.</span> <span class="nav-text">3.有些项目的设计让你填报时不仅怀疑人生，甚至质疑设计者的智商</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Robin</p>
+  <div class="site-description" itemprop="description">法律,数字检察</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2020/an-ka-tu-cao.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Robin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="纵横沙龙">
+      <meta itemprop="description" content="法律,数字检察">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="关于案卡和系统，可以开一场三天三夜的吐槽大会（CU检） | 纵横沙龙">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          关于案卡和系统，可以开一场三天三夜的吐槽大会（CU检）
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-09-01 00:00:00" itemprop="dateCreated datePublished" datetime="2020-09-01T00:00:00+08:00">2020-09-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-04-27 12:37:03" itemprop="dateModified" datetime="2026-04-27T12:37:03+08:00">2026-04-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/dt/" itemprop="url" rel="index"><span itemprop="name">dt</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>最近在好几次会议上，都听到某地的某检察官因为案卡填报出现问题被通报的消息。<br>一张小小的案卡，为什么会让多地的检察官栽了跟头，这到底是检察官工作能力的扭曲，还是他们责任心的沦丧，抑或是有什么其他不为人知的原因呢？</p>
+<span id="more"></span>
+
+<p>带着这些疑问，我走进了一些检察民工的微信群，就“办案系统里的案卡到底怎么了？”的话题，与小伙伴们展开了讨论。<br>话题一开，只见群聊天界面里的信息瞬间更新了上百条，每个人似乎都对它充满了愤怒。<br>案卡的槽点之多，罄竹难书；承办人所受到的折磨，令人发指。<br>我把群聊里收集到的一些内容，简单展示在这里，让大家感受一下，也欢迎大家在评论区里进行补充。</p>
+<h1 id="1-点到让你怀疑人生的“否”"><a href="#1-点到让你怀疑人生的“否”" class="headerlink" title="1.点到让你怀疑人生的“否”"></a>1.点到让你怀疑人生的“否”</h1><p>嫌疑人是否是未成年人，是否是人大代表、政协委员、是否是民营企业家……<br>据一位不愿意透露姓名的检察官统计，假如一个案件只有一名犯罪嫌疑人的话，你需要点击57个“否”。<br>如果这个案件有两名甚至更多的嫌疑人，那么恭喜你，你需要点击的“否”则要按照人数乘以57，缺少一次你都进不了下一步。<br>而且这个“否”还时不时的会增加。<br>比如疫情来了，你需要在再点一下这个案子是否属于涉疫案件。<br>比如要六稳六保了，你需要再点一下这个案子是否涉及民营企业家。<br>比如最近医闹案件多了，你需要再点一下这个案子是否属于涉医案件。<br>所以，如果你想要知道最近有什么属于社会热点，来我们的办案系统看一下又新增了什么需要点击“否”的项目就可以了。<br>更神奇的是，不但新发生的案子需要点击“否”。而且那些已经办结的案件，你还需要补点“否”。如果你不补，你就看不了之前的案件了。<br>真的不能理解案件管理系统的设计者，你为啥不能把所有的项目默认为“否”，而让检察官有选择点击“是”呢？<br>非要检察官们瞪大眼睛去点击几百个“否”，然后万一要是点错了，再去通报批评他们。真想问一句：你们，是故意的吗？</p>
+<h1 id="2-填报了那么多信息，需要统计数据的时候还是靠手。"><a href="#2-填报了那么多信息，需要统计数据的时候还是靠手。" class="headerlink" title="2.填报了那么多信息，需要统计数据的时候还是靠手。"></a>2.填报了那么多信息，需要统计数据的时候还是靠手。</h1><p>每一个案件，每一个犯罪嫌疑人，每一个被害人，从受案时间到办理结果。办案系统设计之繁密，让人叹为观止。据说一个案子全流程下来，监督的点有几百个。<br>但就是这么牛逼的系统，填报了那么多数据之后，你会悲伤的发现，上级院依然需要下级院上报各种数据。<br>这些数据怎么来呢？需要承办人或者内勤再一手拿着笔，一手拿着纸，再进行人工的统计。<br>一位被数据统计折磨的在焦虑和抑郁间徘徊许久的检察官发出了这样的灵魂之问：<br>如果填报的信息从来都生成不了有用的数据，我们一次次填报的意义到底又在哪里？</p>
+<h1 id="3-有些项目的设计让你填报时不仅怀疑人生，甚至质疑设计者的智商"><a href="#3-有些项目的设计让你填报时不仅怀疑人生，甚至质疑设计者的智商" class="headerlink" title="3.有些项目的设计让你填报时不仅怀疑人生，甚至质疑设计者的智商"></a>3.有些项目的设计让你填报时不仅怀疑人生，甚至质疑设计者的智商</h1><p>假如嫌疑人是一名农村进城务工的理发师，请问他到底算不算农民工？<br>按我的理解，应该算。但对不起，系统不认为他是。<br>到底什么样才算是民营经济，非公经济，没有人告诉过你明确的定义。<br>你去问案管，案管告诉你他们也不知道，需要自己去理解。但是如果系统填错了，你要承担责任。<br>假如你办理的是单位犯罪，系统默认的犯罪嫌疑人年龄是0。你要是不手动给他改成18岁，系统会默认这是一个未成年人案件。<br>在内设机构改革以后，原来的侦查监督和公诉变成了捕诉一体，你会惊奇的发现你看不到自己以前办的案子了，只有案管的人能看到。<br>能想出几百个监督项目的系统，在设计的时候竟然没意识到还会发生案件在审查起诉中可能发生中止的情形。<br>假如你需要对嫌疑人进行精神病鉴定，必须把案子退回给公安，否则系统就开始要闪烁红灯，提示你案件超期了！<br>涉及多人的案件，有起诉的，有不起诉的，还有撤回的，但是系统默认所有人都进入起诉环节。在这种情况下，该怎么发起文书审批？没有文号又怎么去填案卡？<br>上述的这些问题，只是检察官们海量吐槽中的冰山一角，至于升级就卡顿、卡死就重来等等司空见惯的问题，大家似乎都已经习惯了。<br>据一位头发已经快掉光的助理说：看卷半小时，填报案卡和系统要弄一整天。如果一不小心搞错一步，对不起，换个姿势，再来一次。<br>真真的是：<br>原本以为走进了人工智能，万万没想到碰到的是人工智障。<br>面对填报案卡出现的错误，有的可能确实是不认真不仔细，但案卡和系统本身到底好不好用，是否存在着增加承办人负担等问题，也值得引起关注。<br>没有人不想成为一名合格的工匠，大多数人也都愿意去求极致，成为大师。<br>但再好的技艺，再多的耐心，在点击了无数个“否”和经历了无数个始终伴随左右的BUG之后，也会感到烦躁和崩溃吧。<br>设计系统的人不办案，使用系统进行监督的人不办案。对他们来说，能通过系统、案卡发现问题，发出通报，也许才是成绩。<br>而那些真正在一线办案的人，这些每天使用系统、填报案卡的人呢，没有享受到所谓的智能系统带来的便利，只感受到越来越多的繁琐，和越来越大的害怕出错的压力。<br>总说要不忘初心。那我们是不是也要想一想，投入了巨资研发的办案系统，初心到底是什么？<br>希望设计者和监督者，到一线实际办几个案子，去体验一下办案检察官的生活和工作。<br>检察官们的工作是让人民群众在每一个案件中感受到公平正义，请先让他们在办案系统和案卡中感受到便捷和善意。</p>
+<p>最后一句：实践是检验真理的唯一标准。</p>
+<hr>
+<p>来自：CU检说法-<a target="_blank" rel="noopener" href="https://www.163.com/dy/article/FLFMHPEP0521C22L.html">关于案卡和系统，可以开一场三天三夜的吐槽大会</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2013/law.html" rel="prev" title="《法律职业的精神》文摘">
+                  <i class="fa fa-angle-left"></i> 《法律职业的精神》文摘
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/tyyw-bbt.html" rel="next" title="共建巴别塔，而不是被变乱了口音">
+                  共建巴别塔，而不是被变乱了口音 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Robin</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
