@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.acsy.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="内设机构改革后，在案件分配工作中出现了“捕诉一体”和“专业化分工”原则适用优先级的争议，系统过于简单的分案设计也难以适应新的需求，特别是在最高检强力推行检察官业绩考核的背景下，对案件“描绘”的需求更加强烈。本文在具体实践的基础上提出“以专业化分工为基础、以捕诉一体优先，特殊案件个案协调”的分案工作规范，并对检察业务应用系统升级提出若干建议。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="刑事案件专业化背景下案件承办确定机制实务研究">
+<meta property="og:url" content="https://blog.acsy.com/2022/fen-an.html">
+<meta property="og:site_name" content="法数纵横">
+<meta property="og:description" content="内设机构改革后，在案件分配工作中出现了“捕诉一体”和“专业化分工”原则适用优先级的争议，系统过于简单的分案设计也难以适应新的需求，特别是在最高检强力推行检察官业绩考核的背景下，对案件“描绘”的需求更加强烈。本文在具体实践的基础上提出“以专业化分工为基础、以捕诉一体优先，特殊案件个案协调”的分案工作规范，并对检察业务应用系统升级提出若干建议。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-11-06T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-28T08:20:36.046Z">
+<meta property="article:author" content="Robin">
+<meta property="article:tag" content="法数纵横,极客纵横,纵横沙龙,法律,信息化,数字化,智能化,检察业务应用系统,数字检察,大数据法律监督模型,检察智能化应用">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.acsy.com/2022/fen-an.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.acsy.com/2022/fen-an.html","path":"2022/fen-an.html","title":"刑事案件专业化背景下案件承办确定机制实务研究"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>刑事案件专业化背景下案件承办确定机制实务研究 | 法数纵横</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">法数纵横</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">法律与数字化的一隅之言</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A1%88%E4%BB%B6%E6%89%BF%E5%8A%9E%E7%A1%AE%E5%AE%9A%E6%9C%BA%E5%88%B6%E6%9C%89%E5%85%B3%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.</span> <span class="nav-text">一、案件承办确定机制有关基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A3%80%E5%AF%9F%E5%8A%9E%E6%A1%88%E7%BB%84%E7%BB%87%E4%B8%8E%E6%A3%80%E5%AF%9F%E5%8A%9E%E6%A1%88%E5%9B%A2%E9%98%9F"><span class="nav-number">1.1.</span> <span class="nav-text">（一）检察办案组织与检察办案团队</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E8%BD%AE%E6%A1%88%E7%BB%84"><span class="nav-number">1.2.</span> <span class="nav-text">（二）轮案组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E5%8F%97%E7%90%86%E4%BD%8D%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">（三）受理位置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E5%88%86%E6%B5%81%E4%B8%8E%E5%88%86%E9%85%8D"><span class="nav-number">1.4.</span> <span class="nav-text">（四）分流与分配</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%A1%88%E4%BB%B6%E7%9A%84%E5%88%86%E6%B5%81"><span class="nav-number">2.</span> <span class="nav-text">二、案件的分流</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E6%9C%BA%E5%88%B6%E7%9A%84%E6%B2%BF%E9%9D%A9"><span class="nav-number">2.1.</span> <span class="nav-text">（一）案件分流机制的沿革</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E5%9B%A0%E7%B4%A0%E5%88%86%E6%9E%90"><span class="nav-number">2.2.</span> <span class="nav-text">（二）案件分流因素分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%88%91%E4%BA%8B%E6%A1%88%E4%BB%B6%E4%B8%93%E4%B8%9A%E7%B1%BB%E5%9E%8B"><span class="nav-number">2.2.1.</span> <span class="nav-text">1. 刑事案件专业类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%88%91%E4%BA%8B%E6%A1%88%E4%BB%B6%E7%BD%AA%E5%90%8D%EF%BC%88%E6%9B%B4%E7%BB%86%E5%8C%96%E7%9A%84%E4%B8%93%E4%B8%9A%E7%B1%BB%E5%9E%8B%EF%BC%89"><span class="nav-number">2.2.2.</span> <span class="nav-text">2. 刑事案件罪名（更细化的专业类型）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%A1%88%E4%BB%B6%E7%89%B9%E6%80%A7"><span class="nav-number">2.2.3.</span> <span class="nav-text">3. 案件特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%A7%BB%E9%80%81%E5%8D%95%E4%BD%8D"><span class="nav-number">2.2.4.</span> <span class="nav-text">4. 移送单位</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E4%BA%89%E8%AE%AE"><span class="nav-number">2.3.</span> <span class="nav-text">（三）案件分流争议</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%8D%95%E3%80%81%E8%AF%89%E7%BD%AA%E5%90%8D%E5%8F%98%E5%8C%96%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%80%E5%AE%A1%E5%85%AC%E8%AF%89%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E4%BA%89%E8%AE%AE"><span class="nav-number">2.3.1.</span> <span class="nav-text">1. 捕、诉罪名变化导致的一审公诉案件分流争议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%AF%89%E3%80%81%E5%88%A4%E7%BD%AA%E5%90%8D%E4%B8%8D%E4%B8%80%E8%87%B4%E5%AF%BC%E8%87%B4%E7%9A%84%E4%BA%8C%E5%AE%A1%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E4%BA%89%E8%AE%AE"><span class="nav-number">2.3.2.</span> <span class="nav-text">2. 诉、判罪名不一致导致的二审案件分流争议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%A3%80%E5%AF%9F%E5%AE%98%E8%B7%A8%E9%83%A8%E9%97%A8%E8%B0%83%E6%95%B4%E5%90%8E%E5%AF%BC%E8%87%B4%E7%9A%84%E5%88%86%E6%B5%81%E3%80%81%E5%88%86%E9%85%8D%E4%BA%89%E8%AE%AE"><span class="nav-number">2.3.3.</span> <span class="nav-text">3. 检察官跨部门调整后导致的分流、分配争议</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%A1%88%E4%BB%B6%E7%9A%84%E5%88%86%E9%85%8D"><span class="nav-number">3.</span> <span class="nav-text">三、案件的分配</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A1%88%E4%BB%B6%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E7%9A%84%E6%B2%BF%E9%9D%A9"><span class="nav-number">3.1.</span> <span class="nav-text">（一）案件分配机制的沿革</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%A1%88%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E7%9A%84%E7%A1%AE%E7%AB%8B%E5%92%8C%E5%AE%8C%E5%96%84"><span class="nav-number">3.2.</span> <span class="nav-text">（二）案件随机分配机制的确立和完善</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%A1%88%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E6%A1%88%E4%BB%B6%E5%9B%A0%E7%B4%A0"><span class="nav-number">3.3.</span> <span class="nav-text">（三）案件随机分配机制中的案件因素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E6%A1%88%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E5%8A%9E%E6%A1%88%E7%BB%84%E7%BB%87%E5%9B%A0%E7%B4%A0"><span class="nav-number">3.4.</span> <span class="nav-text">（四）案件随机分配机制中的办案组织因素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%94%EF%BC%89%E6%A1%88%E4%BB%B6%E9%9A%8F%E6%9C%BA%E5%88%86%E9%85%8D%E6%9C%BA%E5%88%B6%E4%B8%AD%E7%9A%84%E5%85%B6%E4%BB%96%E5%9B%A0%E7%B4%A0"><span class="nav-number">3.5.</span> <span class="nav-text">（五）案件随机分配机制中的其他因素</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%A1%88%E4%BB%B6%E5%88%86%E6%B5%81%E4%B8%8E%E5%88%86%E9%85%8D%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%BB%BA%E8%AE%AE"><span class="nav-number">4.</span> <span class="nav-text">四、案件分流与分配工作的建议</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E7%A1%AE%E5%AE%9A%E5%88%86%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%A7%84%E8%8C%83"><span class="nav-number">4.1.</span> <span class="nav-text">（一）确定分案工作的基本规范</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E4%B8%93%E4%B8%9A%E5%8C%96%E5%88%86%E5%B7%A5%E4%B8%BA%E5%9F%BA%E7%A1%80"><span class="nav-number">4.1.1.</span> <span class="nav-text">1. 专业化分工为基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E2%80%9C%E6%8D%95%E8%AF%89%E4%B8%80%E4%BD%93%E2%80%9D%E4%BC%98%E5%85%88"><span class="nav-number">4.1.2.</span> <span class="nav-text">2. “捕诉一体”优先</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%8D%95%E8%AF%89%E4%B8%80%E4%BD%93%E5%89%8D%E6%8F%90%E4%B8%8B%E7%9A%84%E2%80%9C%E6%A1%88%E9%9A%8F%E4%BA%BA%E8%B5%B0%E2%80%9D"><span class="nav-number">4.1.3.</span> <span class="nav-text">3. 捕诉一体前提下的“案随人走”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%89%B9%E6%AE%8A%E6%83%85%E5%BD%A2%E4%B8%AA%E6%A1%88%E5%8D%8F%E8%B0%83"><span class="nav-number">4.1.4.</span> <span class="nav-text">4. 特殊情形个案协调</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E5%8A%A0%E5%BC%BA%E5%88%86%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B"><span class="nav-number">4.2.</span> <span class="nav-text">（二）加强分案工作的技术能力</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AF%B9%E6%A1%88%E4%BB%B6%E7%9A%84%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB%E3%80%82"><span class="nav-number">4.2.1.</span> <span class="nav-text">1. 对案件的自动识别。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%B9%E6%A3%80%E5%AF%9F%E5%AE%98%E7%9A%84%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB%E3%80%82"><span class="nav-number">4.2.2.</span> <span class="nav-text">2. 对检察官的自动识别。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%8A%A0%E5%BC%BA%E5%8A%9E%E6%A1%88%E5%B7%A5%E4%BD%9C%E9%87%8F%E5%9D%87%E8%A1%A1%E8%83%BD%E5%8A%9B%E3%80%82"><span class="nav-number">4.2.3.</span> <span class="nav-text">3. 加强办案工作量均衡能力。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E5%8A%A0%E5%BC%BA%E5%88%86%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86"><span class="nav-number">4.3.</span> <span class="nav-text">（三）加强分案工作的监督管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%88%86%E6%A1%88%E5%8E%9F%E5%9B%A0%E7%AE%A1%E7%90%86%E3%80%82"><span class="nav-number">4.3.1.</span> <span class="nav-text">1. 分案原因管理。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%9A%82%E5%81%9C%E5%88%86%E6%A1%88%E7%AE%A1%E7%90%86%E3%80%82"><span class="nav-number">4.3.2.</span> <span class="nav-text">2. 暂停分案管理。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E7%BB%93%E8%AF%AD"><span class="nav-number">5.</span> <span class="nav-text">五、结语</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Robin</p>
+  <div class="site-description" itemprop="description">法律,数字检察</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2022/fen-an.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Robin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="法数纵横">
+      <meta itemprop="description" content="法律,数字检察">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="刑事案件专业化背景下案件承办确定机制实务研究 | 法数纵横">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          刑事案件专业化背景下案件承办确定机制实务研究
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-11-07 00:00:00" itemprop="dateCreated datePublished" datetime="2022-11-07T00:00:00+08:00">2022-11-07</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-04-28 16:20:36" itemprop="dateModified" datetime="2026-04-28T16:20:36+08:00">2026-04-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/article/" itemprop="url" rel="index"><span itemprop="name">article</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>内设机构改革后，在案件分配工作中出现了“捕诉一体”和“专业化分工”原则适用优先级的争议，系统过于简单的分案设计也难以适应新的需求，特别是在最高检强力推行检察官业绩考核的背景下，对案件“描绘”的需求更加强烈。本文在具体实践的基础上提出“以专业化分工为基础、以捕诉一体优先，特殊案件个案协调”的分案工作规范，并对检察业务应用系统升级提出若干建议。</p>
+<span id="more"></span>
+
+<hr>
+<p>【关键词】案件分流　案件分配　案件承办确定机制　分案<br>【摘　要】内设机构改革后，在案件分配工作中出现了“捕诉一体”和“专业化分工”原则适用优先级的争议，系统过于简单的分案设计也难以适应新的需求，特别是在最高检强力推行检察官业绩考核的背景下，对案件“描绘”的需求更加强烈。本文在具体实践的基础上提出“以专业化分工为基础、以捕诉一体优先，特殊案件个案协调”的分案工作规范，并对检察业务应用系统升级提出若干建议。</p>
+<h1 id="一、案件承办确定机制有关基本概念"><a href="#一、案件承办确定机制有关基本概念" class="headerlink" title="一、案件承办确定机制有关基本概念"></a>一、案件承办确定机制有关基本概念</h1><h2 id="（一）检察办案组织与检察办案团队"><a href="#（一）检察办案组织与检察办案团队" class="headerlink" title="（一）检察办案组织与检察办案团队"></a>（一）检察办案组织与检察办案团队</h2><p>关于检察机关办案组织，学界研究较多。“检察机关办案组织被认为是确保推动检察权运行的最基本的组织单元”、“办案组织是司法机关最基本的‘组织单元’”、“检察官是检察权运行的最基本组织形式和组织单元”、“检察机关办案组织是由检察长、检委会或检察官所领导和负责，若干检察人员参与和协助，依法独立行使办案决定权和承办权并承担责任的相对稳定的执法办案单元或团队”等。<br>检察办案组织是检察权运行机制的载体，也是司法责任制的基础，包括独任检察官、检察官办案组两种基本的办案组织形式，并为其配置一定数量的检察辅助人员（检察官助理、书记员），共同组成检察办案团队。检察业务应用系统中，“办案单元”是围绕独任检察官、检察官办案组所组成的检察办案团队的统一抽象模型。</p>
+<h2 id="（二）轮案组"><a href="#（二）轮案组" class="headerlink" title="（二）轮案组"></a>（二）轮案组</h2><p>轮案组是检察办案团队随机轮案的组织形式，科学设置轮案组是案件承办确定机制运行的基础。笔者认为，传统的“办案组”，实质是科层组织下的一种专业小组，更类似系统配置的轮案组。</p>
+<h2 id="（三）受理位置"><a href="#（三）受理位置" class="headerlink" title="（三）受理位置"></a>（三）受理位置</h2><p>检察业务应用系统的“受理位置”是新建案件的位置。主要包括三种：案管受理、部门受理和承办检察官受理。其中，案管受理和部门受理适用自动分流规则。</p>
+<h2 id="（四）分流与分配"><a href="#（四）分流与分配" class="headerlink" title="（四）分流与分配"></a>（四）分流与分配</h2><p>案件分流，是指案件新建后，根据预设规则确定承办部门的过程；案件分配，是指案件在承办部门内部，根据预设规则确定检察办案团队的过程。</p>
+<h1 id="二、案件的分流"><a href="#二、案件的分流" class="headerlink" title="二、案件的分流"></a>二、案件的分流</h1><h2 id="（一）案件分流机制的沿革"><a href="#（一）案件分流机制的沿革" class="headerlink" title="（一）案件分流机制的沿革"></a>（一）案件分流机制的沿革</h2><p>内设机构改革前，刑事案件内设机构根据刑事诉讼环节进行设置，一级分流规则的重点是案件业务类别（比如侦查监督业务、公诉业务），实践中办案部门内部也在探索繁简分流、专业分类等二级分流机制。内设机构改革后，刑事案件内设机构根据刑事案件专业类型进行设置，一级分流规则的重点是刑事案件专业类型（或罪名），实践中办案部门内部仍可能设置更加细化的专业轮案组进行二级分流。</p>
+<h2 id="（二）案件分流因素分析"><a href="#（二）案件分流因素分析" class="headerlink" title="（二）案件分流因素分析"></a>（二）案件分流因素分析</h2><h3 id="1-刑事案件专业类型"><a href="#1-刑事案件专业类型" class="headerlink" title="1. 刑事案件专业类型"></a>1. 刑事案件专业类型</h3><p>刑事案件根据案由、侦（调）查机关、案件其他特征等分为普通犯罪案件、重大犯罪案件、职务犯罪案件、经济犯罪案件、罪犯又犯罪案件和未检案件。<br>未检案件和罪犯又犯罪案件的识别与分流相对简单。检察业务应用系统中，未检办理的所有检察业务单独设置了“未检”业务，不列入普通刑事案件分流。系统设置了“是否监所案件”的标签，也可以很直接的标识出罪犯又犯罪案件。刑事案件的分流主要涉及普通犯罪案件、重大犯罪案件、职务犯罪案件、经济犯罪案件。</p>
+<h3 id="2-刑事案件罪名（更细化的专业类型）"><a href="#2-刑事案件罪名（更细化的专业类型）" class="headerlink" title="2. 刑事案件罪名（更细化的专业类型）"></a>2. 刑事案件罪名（更细化的专业类型）</h3><p>内设机构改革后，最高检、省院以及较大的市级院一般按照刑事案件专业类型设置了专门的机构，但是在这些专门的机构内部仍有可能按照更细的专业类型（罪名）进行分组。比如：经济犯罪检察部门设置经济犯罪、电信网络诈骗犯罪、侵犯知识产权犯罪等轮案组。</p>
+<h3 id="3-案件特性"><a href="#3-案件特性" class="headerlink" title="3. 案件特性"></a>3. 案件特性</h3><p>随着专业化的深入发展，最高检各厅管辖罪名也进行了部分调整，比如涉网络电信诈骗犯罪等。此类“涉”某领域犯罪案件被定义后，同一个罪名可能分属两种不同刑事案件专业类型，这给分流工作增加了不小的难度，目前只能通过人工选择“案件特性”确定案件分流部门。</p>
+<h3 id="4-移送单位"><a href="#4-移送单位" class="headerlink" title="4. 移送单位"></a>4. 移送单位</h3><p>在一些特殊情况下，如按照区域管辖模式分流的案件，可以通过移送单位进行案件分流。</p>
+<h2 id="（三）案件分流争议"><a href="#（三）案件分流争议" class="headerlink" title="（三）案件分流争议"></a>（三）案件分流争议</h2><h3 id="1-捕、诉罪名变化导致的一审公诉案件分流争议"><a href="#1-捕、诉罪名变化导致的一审公诉案件分流争议" class="headerlink" title="1. 捕、诉罪名变化导致的一审公诉案件分流争议"></a>1. 捕、诉罪名变化导致的一审公诉案件分流争议</h3><p>刑事案件在侦查阶段，侦查机关往往会以更易认定的犯罪事实立案并报捕，在侦查终结后再根据全部查明的事实和证据确定罪名移送审查起诉，实践中存在捕、诉罪名不一致的情况。例如：某一案件，公安以“合同诈骗罪”立案并报捕，根据专业分工，案件由经济犯罪检察部门办理。但侦查终结后公安改变罪名并以“诈骗罪”移送检察机关。此时，如果“专业化优先”则应由普通犯罪检察部门办理，如果“捕诉一体优先”则应仍由经济犯罪检察部门（原批捕部门）继续办理。</p>
+<h3 id="2-诉、判罪名不一致导致的二审案件分流争议"><a href="#2-诉、判罪名不一致导致的二审案件分流争议" class="headerlink" title="2. 诉、判罪名不一致导致的二审案件分流争议"></a>2. 诉、判罪名不一致导致的二审案件分流争议</h3><p>下级院侦、捕、诉、判罪名不一致时，对应的二审案件的请示、办理存在争议。例如：某案件检察机关以“合同诈骗罪”起诉，但法院判决罪名为“诈骗罪”，下级院拟抗诉，按照检察机关起诉罪名“合同诈骗罪”应请示上级院经济犯罪检察部门，按照按照法院判决罪名“诈骗罪”则应请示上级院普通犯罪检察部门。</p>
+<h3 id="3-检察官跨部门调整后导致的分流、分配争议"><a href="#3-检察官跨部门调整后导致的分流、分配争议" class="headerlink" title="3. 检察官跨部门调整后导致的分流、分配争议"></a>3. 检察官跨部门调整后导致的分流、分配争议</h3><p>检察官跨部门调整后，其原办理的批捕案件在公安移送起诉后案件如何分流？比如：四部A检察官办理了张某合同诈骗案（审查逮捕），但随后调岗至民事检察部门。该案侦查终结后，公安以诈骗罪（一部职能范围）移送检察院起诉，此时该公诉案件如何分流？继续由A检察官办理？还是由四部继续办理（捕诉一体优先）？还是由一部办理（专业化优先）？</p>
+<h1 id="三、案件的分配"><a href="#三、案件的分配" class="headerlink" title="三、案件的分配"></a>三、案件的分配</h1><h2 id="（一）案件分配机制的沿革"><a href="#（一）案件分配机制的沿革" class="headerlink" title="（一）案件分配机制的沿革"></a>（一）案件分配机制的沿革</h2><p>不同地区、不同层级的检察机关在不同的历史时期对案件分配的原则、模式、程序等可能会存在一些变化和差异。主要包括：</p>
+<ol>
+<li>指定模式。按照检察机关的内部管理体制，案件分配的决定权一般属于部门负责人，受理案件后，由部门负责人直接指定承办人。</li>
+<li>区域管辖模式，即将所有办案人员分为多个“办案组”（轮案组）分别管辖某几个特定区域，根据案件区域二次分流至对应“办案组”（轮案组），然后再内部分配。</li>
+<li>循环模式。案件按受理时间顺序登记，本部门所有办案人员按事先确定的顺序进行循环。</li>
+<li></li>
+</ol>
+<h2 id="（二）案件随机分配机制的确立和完善"><a href="#（二）案件随机分配机制的确立和完善" class="headerlink" title="（二）案件随机分配机制的确立和完善"></a>（二）案件随机分配机制的确立和完善</h2><p>“随机分案为主、指定分案为辅”的案件承办确定机制改变了检察机关以往的“循环”“压轮次”的案件分配方式。系统升级后，以往部门负责人决定案件承办人的模式变更为由系统预设规则确定案件承办检察官的模式，案件分配全程留痕，提升了分案工作的透明度。同时，系统通过设立专业轮案组，也有利于检察官精英化、职业化和专业化建设。此外，系统预设规则、自动分案，能够促使相关部门加强案件强度系数（权重系数）的研究，对检察机关平衡业务部门工作量、检察官工作量，建立检察官业绩考核等都能起到较好的推动作用，有利于确保检察官办案工作量更加均衡。</p>
+<h2 id="（三）案件随机分配机制中的案件因素"><a href="#（三）案件随机分配机制中的案件因素" class="headerlink" title="（三）案件随机分配机制中的案件因素"></a>（三）案件随机分配机制中的案件因素</h2><p>案件繁简程度是案件随机分配机制中最重要的因素，但也是当前案件分配工作中最薄弱的环节。主要原因在于对“繁简”案件的区分界定难以在当前信息化条件下识别应用。有观点认为案件难易程度指标应当包括：犯罪类型、卷宗册数、每卷平均页数、涉案人数、移送管辖、庭审程序等；有观点认为构建案件办理难度与工作量综合评估体系应当包括五种要素：案件类型、案件涉及罪名、案件卷宗册数与卷宗总页数、案件犯罪嫌疑人人数、案件庭审程序。笔者认为这些要素根据受案时是否可以确定，大体可分为受案时因素和结案时因素。同时，受案时因素还可以包括嫌疑人前科情况、嫌疑人羁押情况；结案时因素除庭审程序外，还可以包括是否适用认罪认罚从宽、故意或过失犯罪等。之所以如此区分案件因素，是考虑应当将随机分配机制由现在的“静态”分配升级为“动态”分配，即：在全面客观的评价案件难度基础上，综合评价检察官办案工作总量和当前任务量，动态的对案件进行分配。</p>
+<h2 id="（四）案件随机分配机制中的办案组织因素"><a href="#（四）案件随机分配机制中的办案组织因素" class="headerlink" title="（四）案件随机分配机制中的办案组织因素"></a>（四）案件随机分配机制中的办案组织因素</h2><p>1.同一规则。主要解决在本院范围内同一刑事案件的不同诉讼环节（案件流程）由同一名检察官承办的问题。如：一审公诉案件由之前承办审查逮捕案件的检察官办理。<br>2.互斥规则。主要解决在本院范围内同一刑事案件的不同诉讼环节（案件流程）由另一名检察官承办的问题。如：各类复议案件（不批准逮捕复议、不起诉复议、立案监督复议等）不能由原检察官承办，需另行指派检察官或检察官办案组办理。<br>3.在位情况。检察官因各种原因（出差、培训等）不在位，其参与的所有轮案组均不应当继续分案。</p>
+<h2 id="（五）案件随机分配机制中的其他因素"><a href="#（五）案件随机分配机制中的其他因素" class="headerlink" title="（五）案件随机分配机制中的其他因素"></a>（五）案件随机分配机制中的其他因素</h2><ol>
+<li>回避问题。在维持随机分配模式的前提下，将检察官的回避问题纳入案件分配考量的范围，从规则的角度保证有效地隔离检察官与其有利害关系的案件。</li>
+<li>工作量问题。在案件的分配上除了强调规范化以外，也要考虑如何保证案件分配方式的灵活性。一项对法院案件分配的研究表明，法院院长角色的活跃对于促进法院内部案件和法官分配上的灵活性确实能够起到一定的作用。检察机关也需要充分与恰当地发挥各种组织性权力的能动性，并在此基础上适时地调整案件分配的方式，比如“分案轮空制度”。</li>
+</ol>
+<h1 id="四、案件分流与分配工作的建议"><a href="#四、案件分流与分配工作的建议" class="headerlink" title="四、案件分流与分配工作的建议"></a>四、案件分流与分配工作的建议</h1><h2 id="（一）确定分案工作的基本规范"><a href="#（一）确定分案工作的基本规范" class="headerlink" title="（一）确定分案工作的基本规范"></a>（一）确定分案工作的基本规范</h2><h3 id="1-专业化分工为基础"><a href="#1-专业化分工为基础" class="headerlink" title="1. 专业化分工为基础"></a>1. 专业化分工为基础</h3><p>对于本院案件，按照各部门管辖罪名分流。对多罪名的案件，以全案主罪确定专业化分工（涉嫌多罪名难以分清主次的，以移送文书中列明的首个罪名填录全案主罪名）；对于跨院案件，按照案件的最新情况以“专业化分工优先”原则分流。其中，系刑事诉讼前后环节的案件流程以原案件的判决罪名确定；系同步进行的案件流程根据原案件的移送罪名确定。</p>
+<h3 id="2-“捕诉一体”优先"><a href="#2-“捕诉一体”优先" class="headerlink" title="2. “捕诉一体”优先"></a>2. “捕诉一体”优先</h3><p>“捕诉一体”是检察机关推进内设机构改革的一项重要内容，旨在更好适应检察权结构调整，强化检察一体化和专业化建设。新受理的、有批捕程序的公诉案件，按照“捕诉一体优先”进行分配，有利于同一检察官及其办案团队在全面全程了解案件的基础上，加强对侦查活动的引导和监督，提高办案质量，深化落实司法责任制。</p>
+<h3 id="3-捕诉一体前提下的“案随人走”"><a href="#3-捕诉一体前提下的“案随人走”" class="headerlink" title="3. 捕诉一体前提下的“案随人走”"></a>3. 捕诉一体前提下的“案随人走”</h3><p>检察办案组织其基本功能是办案，内设机构基本功能是管理。如果检察官在本院调整岗位（具备检察官身份），那么基于同一规则的案件应当继续办理（案件的承办部门仍然是原部门）；检察官调离检察院或者失去员额检察官身份情形，将“案”视为原部门的职责，后续的“件”留在原部门随机分配。</p>
+<h3 id="4-特殊情形个案协调"><a href="#4-特殊情形个案协调" class="headerlink" title="4. 特殊情形个案协调"></a>4. 特殊情形个案协调</h3><p>其他有特殊情形的案件，按照“确保办案质效”的基本原则，由相关办案部门协调沟通后确定，未能协商一致的，报共同的分管副检察长或检察长决定。</p>
+<h2 id="（二）加强分案工作的技术能力"><a href="#（二）加强分案工作的技术能力" class="headerlink" title="（二）加强分案工作的技术能力"></a>（二）加强分案工作的技术能力</h2><p>案件承办确定机制最终目的就是实现案件与办案组织（检察官）科学结合。要实现案件的自动分配，必须加强对案件的识别能力和对办案组织（检察官）的识别能力。</p>
+<h3 id="1-对案件的自动识别。"><a href="#1-对案件的自动识别。" class="headerlink" title="1. 对案件的自动识别。"></a>1. 对案件的自动识别。</h3><p>系统应当支持案件受理向导数据、案卡项数据以及案件标签等组合成灵活多样、满足实际的自动分案条件，减少人工干预，达到分案智能化。特别是使用大数据和人工智能技术，对案件电子卷宗进行分析、打上标签，让系统能够“认识”案件，实现繁简分流、专业分类的目标。</p>
+<h3 id="2-对检察官的自动识别。"><a href="#2-对检察官的自动识别。" class="headerlink" title="2. 对检察官的自动识别。"></a>2. 对检察官的自动识别。</h3><p>使用大数据和人工智能技术，对检察官进行画像，对检察官的法律修养、个人能力、所学专业、学历学位、办案风格、擅长领域、岗位角色等进行人物画像。在科学的案件承办确定机制下，让案件与检察官能够达到最佳适配。</p>
+<h3 id="3-加强办案工作量均衡能力。"><a href="#3-加强办案工作量均衡能力。" class="headerlink" title="3. 加强办案工作量均衡能力。"></a>3. 加强办案工作量均衡能力。</h3><p>案件承办确定机制是检察官绩效考核机制的前提和基础，建议系统将检察官绩效考核机制中的办案工作量因素动态应用到前端分案工作中，以综合办案工作量而非简单办案数量进行案件分配，加强分案的科学性。</p>
+<h2 id="（三）加强分案工作的监督管理"><a href="#（三）加强分案工作的监督管理" class="headerlink" title="（三）加强分案工作的监督管理"></a>（三）加强分案工作的监督管理</h2><h3 id="1-分案原因管理。"><a href="#1-分案原因管理。" class="headerlink" title="1. 分案原因管理。"></a>1. 分案原因管理。</h3><p>建议科学提炼和设置分案原因，便于对手工分案、变更办案单元等调整事项合理分流，确定不同的审批决定层级，提高工作效率。</p>
+<h3 id="2-暂停分案管理。"><a href="#2-暂停分案管理。" class="headerlink" title="2. 暂停分案管理。"></a>2. 暂停分案管理。</h3><p>实践中存在因“不在位”暂停分案（重点在起止时间内所有轮案组暂停分案）和因“工作量”暂停分案（重点在暂停部分轮案组一定轮次的案件分配）类型，建议系统细分为“中止轮案”和“暂停轮次”两种功能。</p>
+<h1 id="五、结语"><a href="#五、结语" class="headerlink" title="五、结语"></a>五、结语</h1><p>案件承办机制关乎“法律面前人人平等”司法基本原则，关乎司法责任制改革进程，关乎检察机关自身规范化建设。检察机关要充分重视内设机构改革后“捕诉一体”和“专业化分工”冲突等分案问题，在实践中根据本地情况予以磨合并形成制度，避免个案协调，提高案件受理与分配效率。检察业务应用系统主管部门也应当充分调研各地需求，将各地研究成果和具体需求在检察业务应用系统中实际落地，以系统规范促进办案规范。</p>
+<p>（作者及单位：李斌，四川省人民检察院案件管理办公主任、三级高级检察官；王沿琰，四川省成都市人民检察院第一检察部主任、三级高级检察官；徐彬，四川省成都市人民检察院案件管理办公室副主任、四级高级检察官）</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/shi-nian.html" rel="prev" title="【检察先锋】徐彬：十年“画”蝶">
+                  <i class="fa fa-angle-left"></i> 【检察先锋】徐彬：十年“画”蝶
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/dp-ten.html" rel="next" title="数字检察工作中的十个关系">
+                  数字检察工作中的十个关系 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Robin</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
