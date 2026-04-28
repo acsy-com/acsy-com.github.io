@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.acsy.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="案件管理和信息化，是当前检察机关内部机制改革的翅之两翼，缺一不可。案件管理信息化，犹如检察机关的ERP，是IT技术、现代管理理念与检察工作的有机结合。本文从案件管理、信息化及其内在联系入手，分析全国检察机关案件管理信息化现状和存在的一些问题，提出在案件管理机制改革和检察机关统一软件的新形势下，理顺检察机关案件管理信息化工作机制，以检察信息资源计划（PIRP）为主导，在检察业务统一软件架构下，依托O">
+<meta property="og:type" content="article">
+<meta property="og:title" content="检察机关案件管理信息化存在问题及解决途径浅析">
+<meta property="og:url" content="https://blog.acsy.com/2012/ye-wu-xin-xi-hua.html">
+<meta property="og:site_name" content="法数纵横">
+<meta property="og:description" content="案件管理和信息化，是当前检察机关内部机制改革的翅之两翼，缺一不可。案件管理信息化，犹如检察机关的ERP，是IT技术、现代管理理念与检察工作的有机结合。本文从案件管理、信息化及其内在联系入手，分析全国检察机关案件管理信息化现状和存在的一些问题，提出在案件管理机制改革和检察机关统一软件的新形势下，理顺检察机关案件管理信息化工作机制，以检察信息资源计划（PIRP）为主导，在检察业务统一软件架构下，依托O">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2012-10-30T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-04-28T07:47:37.605Z">
+<meta property="article:author" content="Robin">
+<meta property="article:tag" content="法数纵横,极客纵横,纵横沙龙,法律,信息化,数字化,智能化,检察业务应用系统,数字检察,大数据法律监督模型,检察智能化应用">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://blog.acsy.com/2012/ye-wu-xin-xi-hua.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.acsy.com/2012/ye-wu-xin-xi-hua.html","path":"2012/ye-wu-xin-xi-hua.html","title":"检察机关案件管理信息化存在问题及解决途径浅析"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>检察机关案件管理信息化存在问题及解决途径浅析 | 法数纵横</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">法数纵横</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">法律与数字化的一隅之言</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86%E3%80%81%E4%BF%A1%E6%81%AF%E5%8C%96%E5%8F%8A%E5%86%85%E5%9C%A8%E8%81%94%E7%B3%BB"><span class="nav-number">1.</span> <span class="nav-text">一、案件管理、信息化及内在联系</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E4%BF%A1%E6%81%AF%E5%8C%96%E7%9A%84%E5%86%85%E6%B6%B5%E5%8F%8A%E5%B1%9E%E6%80%A7"><span class="nav-number">1.1.</span> <span class="nav-text">（一）信息化的内涵及属性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86%E7%9A%84%E6%8F%90%E5%87%BA%E5%92%8C%E7%9B%AE%E6%A0%87%E4%BB%BB%E5%8A%A1"><span class="nav-number">1.2.</span> <span class="nav-text">（二）案件管理的提出和目标任务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E4%B8%A4%E8%80%85%E4%B9%8B%E9%97%B4%E7%9A%84%E5%86%85%E5%9C%A8%E8%81%94%E7%B3%BB"><span class="nav-number">1.3.</span> <span class="nav-text">（三）两者之间的内在联系</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B7%A5%E4%BD%9C%E7%8E%B0%E7%8A%B6%E5%8F%8A%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">二、案件管理信息化工作现状及存在的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6%E4%B8%8A%E5%AD%98%E5%9C%A8%E7%9A%84%E5%B1%80%E9%99%90%E6%80%A7"><span class="nav-number">2.1.</span> <span class="nav-text">（一）案件管理信息化工作机制上存在的局限性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%99%AE%E9%81%8D%E5%AD%98%E5%9C%A8%E6%A3%80%E5%AF%9F%E8%BD%AF%E4%BB%B6%E5%BC%82%E6%9E%84%E7%9A%84%E9%97%AE%E9%A2%98%EF%BC%8C%E4%BF%A1%E6%81%AF%E8%B5%84%E6%BA%90%E6%95%B4%E5%90%88%E5%92%8C%E5%88%A9%E7%94%A8%E4%B8%8D%E8%B6%B3"><span class="nav-number">2.2.</span> <span class="nav-text">（二）普遍存在检察软件异构的问题，信息资源整合和利用不足</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E7%BB%9F%E4%B8%80%E8%A7%84%E8%8C%83%E5%92%8C%E6%A0%87%E5%87%86%E5%BB%BA%E8%AE%BE%E6%BB%9E%E5%90%8E%EF%BC%8C%E5%BD%B1%E5%93%8D%E4%BF%A1%E6%81%AF%E5%8C%96%E8%A7%84%E8%8C%83%E4%BD%9C%E7%94%A8%E7%9A%84%E6%9C%89%E6%95%88%E5%8F%91%E6%8C%A5"><span class="nav-number">2.3.</span> <span class="nav-text">（三）统一规范和标准建设滞后，影响信息化规范作用的有效发挥</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E7%BB%9F%E8%AE%A1%E8%BD%AF%E4%BB%B6%E4%BF%A1%E6%81%AF%E5%8F%8A%E6%97%B6%E6%80%A7%E3%80%81%E5%87%86%E7%A1%AE%E6%80%A7%E4%B8%8D%E5%A4%9F%EF%BC%8C%E5%8F%82%E8%B0%8B%E5%86%B3%E7%AD%96%E5%8A%9F%E8%83%BD%E4%B8%8D%E8%B6%B3"><span class="nav-number">2.4.</span> <span class="nav-text">（四）统计软件信息及时性、准确性不够，参谋决策功能不足</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E8%A7%A3%E5%86%B3%E9%80%94%E5%BE%84%E6%8E%A2%E8%AE%A8"><span class="nav-number">3.</span> <span class="nav-text">三、解决途径探讨</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6%E2%80%94%E7%90%86%E9%A1%BA%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B7%A5%E4%BD%9C%E7%89%B9%E5%88%AB%E6%98%AF%E6%A1%88%E4%BB%B6%E7%AE%A1%E7%90%86%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%9C%BA%E5%88%B6"><span class="nav-number">3.1.</span> <span class="nav-text">（一）工作机制—理顺信息化工作特别是案件管理信息化工作机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%96%B9%E6%B3%95%E8%AE%BA%E2%80%94%E2%80%94%E6%B3%A8%E9%87%8D%E6%A3%80%E5%AF%9F%E6%9C%BA%E5%85%B3%E4%BF%A1%E6%81%AF%E8%B5%84%E6%BA%90%E8%A7%84%E5%88%92%EF%BC%8C%E9%80%90%E6%AD%A5%E6%8E%A8%E8%BF%9B%E4%BF%A1%E6%81%AF%E8%B5%84%E6%BA%90%E6%95%B4%E5%90%88%E5%88%A9%E7%94%A8"><span class="nav-number">3.2.</span> <span class="nav-text">（二）方法论——注重检察机关信息资源规划，逐步推进信息资源整合利用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E6%A0%87%E5%87%86%E5%92%8C%E8%A7%84%E8%8C%83%E2%80%94%E2%80%94%E5%85%B3%E6%B3%A8%E5%A4%9A%E5%B1%82%E9%9D%A2%E7%9A%84%E6%A0%87%E5%87%86%E5%92%8C%E8%A7%84%E8%8C%83%E7%BB%9F%E4%B8%80%E9%97%AE%E9%A2%98"><span class="nav-number">3.3.</span> <span class="nav-text">（三）标准和规范——关注多层面的标准和规范统一问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%A3%80%E5%AF%9F%E4%B8%9A%E5%8A%A1%E8%A7%84%E8%8C%83%E7%9A%84%E7%BB%9F%E4%B8%80"><span class="nav-number">3.3.1.</span> <span class="nav-text">1. 检察业务规范的统一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83%E7%9A%84%E7%BB%9F%E4%B8%80%EF%BC%88%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE%EF%BC%89"><span class="nav-number">3.3.2.</span> <span class="nav-text">2. 数据格式规范的统一（结构化数据）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%A1%88%E4%BB%B6%E6%96%87%E4%B9%A6%E3%80%81%E7%94%B5%E5%AD%90%E6%A1%A3%E6%A1%88%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83%E7%9A%84%E7%BB%9F%E4%B8%80%EF%BC%88%E9%9D%9E%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE%EF%BC%89"><span class="nav-number">3.3.3.</span> <span class="nav-text">3. 案件文书、电子档案格式规范的统一（非结构化数据）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%9F%E4%B8%80"><span class="nav-number">3.3.4.</span> <span class="nav-text">4. 身份认证系统的统一</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92%E6%A0%BC%E5%BC%8F%E7%9A%84%E7%BB%9F%E4%B8%80"><span class="nav-number">3.3.5.</span> <span class="nav-text">5. 数据交互格式的统一</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%EF%BC%88%E5%9B%9B%EF%BC%89%E5%B7%A5%E4%BD%9C%E5%BB%BA%E8%AE%AE%E2%80%94%E2%80%94%E9%83%A8%E7%BD%B2%E5%85%A8%E5%9B%BD%E6%A3%80%E5%AF%9F%E6%9C%BA%E5%85%B3%E6%A1%88%E7%AE%A1%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E7%9A%84%E5%BB%BA%E8%AE%AE"><span class="nav-number">3.4.</span> <span class="nav-text">（四）工作建议——部署全国检察机关案管数据中心的建议</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Robin</p>
+  <div class="site-description" itemprop="description">法律,数字检察</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2012/ye-wu-xin-xi-hua.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Robin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="法数纵横">
+      <meta itemprop="description" content="法律,数字检察">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="检察机关案件管理信息化存在问题及解决途径浅析 | 法数纵横">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          检察机关案件管理信息化存在问题及解决途径浅析
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2012-10-31 00:00:00" itemprop="dateCreated datePublished" datetime="2012-10-31T00:00:00+08:00">2012-10-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-04-28 15:47:37" itemprop="dateModified" datetime="2026-04-28T15:47:37+08:00">2026-04-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/article/" itemprop="url" rel="index"><span itemprop="name">article</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>案件管理和信息化，是当前检察机关内部机制改革的翅之两翼，缺一不可。案件管理信息化，犹如检察机关的ERP，是IT技术、现代管理理念与检察工作的有机结合。本文从案件管理、信息化及其内在联系入手，分析全国检察机关案件管理信息化现状和存在的一些问题，提出在案件管理机制改革和检察机关统一软件的新形势下，理顺检察机关案件管理信息化工作机制，以检察信息资源计划（PIRP）为主导，在检察业务统一软件架构下，依托OLAP技术建立全国检察机关案管数据中心，逐步建立新一代检察业务决策支持（DSS）系统等建议。</p>
+<span id="more"></span>
+
+<hr>
+<p>【“姑苏杯”检察机关案件管理理论与实务研究”征文活动】</p>
+<p>【摘　要】案件管理和信息化，是当前检察机关内部机制改革的翅之两翼，缺一不可。案件管理信息化，犹如检察机关的ERP，是IT技术、现代管理理念与检察工作的有机结合。本文从案件管理、信息化及其内在联系入手，分析全国检察机关案件管理信息化现状和存在的一些问题，提出在案件管理机制改革和检察机关统一软件的新形势下，理顺检察机关案件管理信息化工作机制，以检察信息资源计划（PIRP）为主导，在检察业务统一软件架构下，依托OLAP技术建立全国检察机关案管数据中心，逐步建立新一代检察业务决策支持（DSS）系统等建议。<br>【关键词】案件管理 信息化 信息资源规划 案管数据中心 决策支持系统</p>
+<hr>
+<p>在全国检察机关推行案件管理机制改革，是检察机关深化检务公开、强化自身监督制约、大力推进执法规范化建设、进一步提高办案质量和效率的重大举措。随着最高人民检察院案件管理办公室的成立和南京全国检察机关案件管理工作推进会的召开，管理案件工作如雨后春笋般在全国各地检察机关迅速铺开，2012年成为了“案件管理基础建设年”，各地的案件管理机构先后成立，人员队伍逐步配备到位，受案大厅连续建成使用，案管工作迈出了开局的可喜的步伐。然而，要切实承担起高检院明确的“统一受案、全程管理、动态监督、案后评查、综合考评”案管工作职责，“如何有效地开展管理案件工作”这个问题赫然摆在了案管人面前，仅仅是面对日益增加的案件数量、堆积如山的案卷材料、体系繁杂的办案时限，以传统的手工的工作模式开展集中受案、全程管理已经无力招架，更难以想象如何实现强化动态监督、事中监督、规范执法等改革目标。依托现代信息技术手段，实现案件管理信息化，成为高检院以及全国各地检察机关在推进案件管理机制改革工作中的共识。<br>自2003年6月最高人民检察院下发《关于加强案件管理的规定》以来，一些地区的检察机关根据工作实际，先后开发了各具特点的案件管理信息化系统，通过实现网上办案、网上文书监管、网上监督等方式，积极探索加强和改进案件管理工作的途径和方法，积累了不少有益的经验，也遭遇到了许多制肘的难题。笔者结合多年在信息化工作一线的切身体会，从信息化的本质内涵和案件管理的目标任务出发，进一步分析当前案件管理信息化工作的现状和问题，探讨并提出一些建设性的解决途径，以期为全国检察机关统一软件的研发和加快推进案件管理机制改革尽一份绵薄之力。</p>
+<h1 id="一、案件管理、信息化及内在联系"><a href="#一、案件管理、信息化及内在联系" class="headerlink" title="一、案件管理、信息化及内在联系"></a>一、案件管理、信息化及内在联系</h1><h2 id="（一）信息化的内涵及属性"><a href="#（一）信息化的内涵及属性" class="headerlink" title="（一）信息化的内涵及属性"></a>（一）信息化的内涵及属性</h2><p>信息化，英文名称：informationalization。<br>在“一般性定义”中这样叙述：信息化的概念起源于60年代的日本，首先是由日本学者梅棹忠夫提出来的，而后被译成英文传播到西方，西方社会普遍使用“信息社会”和“信息化”的概念是70年代后期才开始的。<br>关于信息化的表述，在中国学术界和政府内部作过较长时间的研讨。1997年召开的首届全国信息化工作会议，对信息化的定义为：“信息化是指培育、发展以智能化工具为代表的新的生产力并使之造福于社会的历史过程。” 根据最新公布的2006-2020国家信息化发展战略，“信息化是充分利用信息技术，开发利用信息资源，促进信息交流和知识共享，提高经济增长质量，推动经济社会发展转型的历史进程。”<br>其通信经济学定义是：“信息化代表了一种信息技术被高度应用，信息资源被高度共享，从而使得人的智能潜力以及社会物质资源潜力被充分发挥，个人行为、组织决策和社会运行趋于合理化的理想状态。同时信息化也是IT产业发展与IT在社会经济各部门扩散的基础之上的，不断运用IT改造传统的经济、社会结构从而通往如前所述的理想状态的一段持续的过程。”<br>从上述诸多的描述中，我们不难发现，虽然在不同的历史发展时期和不同领域，信息化的定义和内涵在不断被改写和扩展，但基本的内涵和属性却万变不离其宗，我们试着简化为几个关键词：信息技术的开发，信息资源的利用，合理化改造，过程，笔者认为这就是“信息化”内涵和最基本的属性。所谓信息化，首先是一个“化”字，是指一个“过程”，是通过应用信息技术，推动信息资源的整合、共享和再创造的一个过程，它不是一蹴而就的，是动态和持续发展的过程。其次是这个过程有三个层面，其一是信息技术的开发、应用的过程，这是基础；其二信息资源的整合、利用的过程，这是核心；其三合理化改造的过程，这是目标，即要达到提高质效的理想目标。<br>谈到信息化，我们还要提及IRP这个概念。<br>1986年，有学者提出了信息资源规划（Information Resource Planning，IRP）的概念，认为信息资源规划既是理论也是工具，其核心是运用西方国家先进的信息工程和数据管理理论及方法，通过总体数据规划，打好数据管理和资源管理的基础，促进集成化的应用开发。<br>企业资源计划（Enterprise Resource Planning，简称ERP），是信息资源规划理论在现代企业管理的成功实践。ERP是理论也是一个实施企业流程再造的重要工具。它是IT技术与管理思想的融合体，是先进的管理思想借助IT技术，来达成企业的管理目标。其主要宗旨是对企业所拥有的人、财、物、信息、时间和空间等综合资源进行综合平衡和优化管理，协调企业各管理部门，围绕市场导向开展业务活动，提高企业的核心竞争力，从而取得最好的经济效益。</p>
+<h2 id="（二）案件管理的提出和目标任务"><a href="#（二）案件管理的提出和目标任务" class="headerlink" title="（二）案件管理的提出和目标任务"></a>（二）案件管理的提出和目标任务</h2><p>在新的历史条件下，随着经济社会的不断发展，人民群众对检察机关规范执法化的要求不断提高，传统的管理手段与工作模式已经不能满足人民群众对司法公正和司法效率的需要。<br>2009年，最高人民检察院印发了《关于贯彻落实〈中央政法委员会关于深化司法体制和工作机制改革若干问题的意见〉的实施意见——关于深化检察改革2009-2012年工作规划》，明确今后一段时期深化检察改革的重点是，强化人民检察院的法律监督职能和加强对人民检察院自身执法活动的监督制约，着力破解制约检察事业科学发展的体制性、机制性和保障性障碍。案件管理机制改革在此大背景下应运而生，成立案件管理的专门机构，履行统一受案、全程管理、动态监督、案后评查、综合考评职责，实现对执法办案的统一、归口、全程、动态管理。通过改革案件管理机制，实现对执法办案的科学化、规范化、全程化、精细化、信息化的管理，推动检察工作科学发展。其核心的目标任务就是促进规范执法，提高办案质量和效率，强化内部监督制约。<br>结合检察机关的实际，检察管理也可定义为：为了保障依法履行法律监督职责而对检察机关内部的人力、物力、财力和权力等资源重新进行科学的组织、分配和利用。</p>
+<h2 id="（三）两者之间的内在联系"><a href="#（三）两者之间的内在联系" class="headerlink" title="（三）两者之间的内在联系"></a>（三）两者之间的内在联系</h2><p>结合检察信息化工作的发展进程和各地案件管理工作实践，我们可以发现信息化和案件管理两者之间千丝万缕的关系。笔者粗略剖析、归纳如下：</p>
+<ul>
+<li>首先，两者的价值目标趋同，具有一致性。前面我们已对信息化内涵的进行了分析，信息化的目标是通过数字化改造实现个人行为、组织决策和社会运行趋于合理化的理想状态。对照检察机关案件集中管理的目标任务，两者具有共同的价值目标：提高质量和效率、促进规范化和信息共享（公开）。这使得检察机关的信息化工作和案件管理工作，在一定的发展阶段必然走向统一，统一于检察机关司法机制改革和工作机制改革事业。</li>
+<li>其次，两者相互依存，缺一不可。信息化是案件管理的基础和支撑。回顾2003年以来，各地检察机关加强案件管理工作的历程，信息化扮演了重要的角色，没有信息化，案件集中管理就是空中楼阁，可望而不可求。案件集中管理是信息化发展的必然趋势。不推行案件管理机制改革，检察机关信息化将会失去持续健康发展的动力。两者相互依存，缺一不可。犹如信息化之于企业管理即产生了企业资源计划（ERP），信息化之于检察业务工作即产生了案件管理信息化。</li>
+<li>第三，两者相互作用，渐进提高。信息化是一个动态发展的过程，而案件管理也有一个持续发展的过程。信息化的发展水平直接影响案件管理的工作面和职能发挥的程度，而随着案件管理工作的发展势必对信息化提出更多更高的要求，推动信息化水平的提高。案件管理机制改革为信息化指引前进的方向，而信息化技术的创新将为案件管理提供更先进的手段，实现以往不敢想象的及时、直观、全面、高效的管理方式。特别是在案件管理机制改革和检察业务统一软件的新形势下，两者更加密不可分，像DNS双螺旋结构一样，彼此作用，渐进提高，不断推动检察机制改革向纵深发展。</li>
+</ul>
+<p>可以说，案件管理信息化，犹如检察机关的ERP（Enterprise Resource Planning，企业资源计划）！案件管理和信息化，是检察机关机制改革的翅之两翼，缺一不可。没有信息化的案件管理，势必陷入繁琐的事务性工作而不能自拔，甚至某些管理理念根本不能实现；没有案件管理的信息化，势必迷失发展方向，投资巨大却收效甚微，最终走进死胡同。<br>胡泽君常务副检察长在南京召开的全国案件管理工作推进会上提出“信息化是案件管理的支撑和依托，没有信息化，就没有真正意义上的案件集中管理”，深刻阐述了检察机关案件管理和信息化的关系，也是对两者关系的一个权威诠释。</p>
+<h1 id="二、案件管理信息化工作现状及存在的问题"><a href="#二、案件管理信息化工作现状及存在的问题" class="headerlink" title="二、案件管理信息化工作现状及存在的问题"></a>二、案件管理信息化工作现状及存在的问题</h1><h2 id="（一）案件管理信息化工作机制上存在的局限性"><a href="#（一）案件管理信息化工作机制上存在的局限性" class="headerlink" title="（一）案件管理信息化工作机制上存在的局限性"></a>（一）案件管理信息化工作机制上存在的局限性</h2><p>案件管理信息化工作机制主要包括软件研发、推广、运行管理等工作机制。在信息化工作机制方面上，各地普遍由信息化工作部门负责，过去高检的“十条线业务软件”的设计与开发，也是由检察技术信息中心牵头进行的。在没有案件管理机构之前，笔者认为由信息化工作部门牵头也是一种权宜之选。由于没有专门的检察业务管理部门牵头，单单是软件的开发，信息化工作部门就需要分别对各业务部门进行需求调研和系统设计，难以高效地达成统一意见，很容易陷入分歧和各行其是的境地。成都市检察机关在从2004年开始的检察业务管理系统开发过程中也遇到了类似的问题，对此，市院党组下了极大的决心，专门指定了一名兼具丰富检察业务经验和基层管理经验的领导同志作为软件项目的牵头人，负责统一协调、统筹、解决办案软件开发中出现各种业务和管理问题，才保证了软件的顺利开发。软件上线后，院党组高度重视，强力推广。经过两级院几年的共同努力，成都检察机关检察信息化特别是网上办案工作取得了显著的成效，网上办案超过了99%。但是随着网上办案工作的深入推进，笔者渐渐体会到由信息化工作部门牵头网上办案工作的局限性和后继乏力。由于信息化工作部门本身的职能定位决定了它不具备对业务工作规范、质量考评等职能，也没有对案件集中管理的职责，即使初期能按照法律和刑事诉讼规则的规定，在一定规范基础上运用信息技术手段将业务部门现有的业务工作实现在软件中，能够初步实现网上办案。但是要依托软件，实现对业务工作更精细化规范、流程的再造、各业务间信息的共享和利用、案件质量管理、案件的动态监督、提高统计数据的准确性，深度分析、挖掘、利用案件数据等信息化目标都显得心有余而力不足。按照上述我们分析的信息化的层次而言，仍然容易停留在信息化的第一个层次上，即信息技术的开发和利用上，难以达到对信息资源的充分整合、利用层次，更难以实现对检察工作合理化改造的目标。</p>
+<h2 id="（二）普遍存在检察软件异构的问题，信息资源整合和利用不足"><a href="#（二）普遍存在检察软件异构的问题，信息资源整合和利用不足" class="headerlink" title="（二）普遍存在检察软件异构的问题，信息资源整合和利用不足"></a>（二）普遍存在检察软件异构的问题，信息资源整合和利用不足</h2><p>由于历史原因，高检各部门及各地开发或购买的各种检察业务应用软件，由于研发、采购时间和推广部门不同，各类软件架构不一致，造成数据互不相通、重复录入。虽然这些软件采用信息技术手段在一定历史阶段、在一定区域内起到了提升办案现代化水平的作用，但是各地区的案件数据不能相互兼容，大部分地区的办案软件数据也不能导入全国统一的统计软件AJ2003，同样的案件往往需要起码在两个软件中重复录入，存在网上办案数据与统计数据常常难以保持一致、数据准确性不高等类似的问题。纵向来讲，检察机关还有12309举报系统、行贿犯罪档案查询系统、档案系统等，由于缺乏信息资源的总体规划，信息规范性差，信息资源的整合和利用成效不大，如不加以解决，将影响检察信息化的长期可持续性发展。</p>
+<h2 id="（三）统一规范和标准建设滞后，影响信息化规范作用的有效发挥"><a href="#（三）统一规范和标准建设滞后，影响信息化规范作用的有效发挥" class="headerlink" title="（三）统一规范和标准建设滞后，影响信息化规范作用的有效发挥"></a>（三）统一规范和标准建设滞后，影响信息化规范作用的有效发挥</h2><p>促进规范执法是案件管理和信息化的一个很重要目标，要实现这一目标，关于案件管理信息化的规范性问题比较繁多，笔者在这里只列举其中两项作为代表，在后一章节中再适当展开。<br>办案流程和法律文书的规范问题。从全国检察机关的实践来看，各地在遵循相关法律法规和高检业务规范的基础上，制定了可操作性较强的本地规范，由于各地的实际情况不同，理解和掌握尺度各异，各地甚至在本地区内，关于流程、文书的规范等都不尽一致，这直接导致软件系统中的业务流程和文书规定存在一定差别，规范化效果不明显。<br>数据格式规范滞后等问题。结构化数据方面高检有统一的标准，然而由于标准制定较早，没有根据近几年检察工作发展进行补充和完善，特别是缺少案件管理方面的工作需求，增加了新的数据规范盲区。非结构化数据方面，各地对存储的法律文书、电子卷宗图片都有不同的技术解决方式，在信息资源的整合和共享方面滋生了新的问题，这些都有待进一步统一规范。</p>
+<h2 id="（四）统计软件信息及时性、准确性不够，参谋决策功能不足"><a href="#（四）统计软件信息及时性、准确性不够，参谋决策功能不足" class="headerlink" title="（四）统计软件信息及时性、准确性不够，参谋决策功能不足"></a>（四）统计软件信息及时性、准确性不够，参谋决策功能不足</h2><p>随着检察事业的不断发展，及时、快捷、准确地掌握本地区案件的宏观信息、统计数据和个案办理状况，制定出更有针对性的工作部署和规划，成为各级领导日益强烈的需求。目前使用的检察统计软件AJ2003采用了C&#x2F;S架构，并采取传统的每月报送数据的方式逐级向上一级检察院报送数据，最终汇总到高检院。由于报送周期、技术架构、管理体制等原因，案件数据仅限于静态数据且存在滞后性，不能实时、全面获取案件信息。在实践中，这种方式固然照顾到全国各地信息化工作水平不尽一致的情况，但普遍存在数据的及时性和准确性问题。<br>此外，从成都市检察机关的案件管理信息化实践来看，虽然网上办案率已经达到了99%，但仍限于离散使用数据，不能获知隐藏在这些数据后面的有价值的信息。从统计软件的应用来看，目前主要通过统计报表的形式来反映检察工作数据，细节有余而聚合不足，不能直观反映和预测相关案件的发案趋势，更不能深层次反映检察工作潜在的问题。</p>
+<h1 id="三、解决途径探讨"><a href="#三、解决途径探讨" class="headerlink" title="三、解决途径探讨"></a>三、解决途径探讨</h1><p>笔者拟就工作机制、方法论、标准和规范、工作建议等四个方面论述，以期对解决案件管理信息化工作中遇到的问题起到抛砖引玉的作用。</p>
+<h2 id="（一）工作机制—理顺信息化工作特别是案件管理信息化工作机制"><a href="#（一）工作机制—理顺信息化工作特别是案件管理信息化工作机制" class="headerlink" title="（一）工作机制—理顺信息化工作特别是案件管理信息化工作机制"></a>（一）工作机制—理顺信息化工作特别是案件管理信息化工作机制</h2><p>合理分工协作，明确案管办牵头地位。检察机关信息化是实现检察工作科学发展的重要途径。2003年，高检院提出建立“三位一体”信息化工作机制的发展目标，要研发和建立包括检察业务管理软件、检察队伍管理软件、办公自动化软件和检务保障软件等在内的信息化应用体系。笔者认为要完成这一艰巨的任务，必须在信息化工作领导小组的统一领导下，各部门分工合作，由各主管部门牵头开展相关信息化工作，并深度参与相关软件的研发、推广、管理。具体而言，政治部门应作为检察队伍管理信息化的牵头部门、办公室应作为办公信息化的牵头部门、计财部门应作为检务保障工作信息化的牵头部门，而检察业务工作信息化的牵头部门就非案件管理部门莫属了，信息化工作部门主要负责软件研发、推广等的技术保障等工作更为合理。<br>笔者认为应该充分认识信息化的内涵，遵循信息化工作的规律，以软件“大统一”和推进案件管理工作为契机，在软件研发上建立以需求为导向的信息系统建设模式，让案件管理部门走到前台来牵头规范和统筹检察业务的信息化需求，信息化工作部门回到技术支撑保障的角色，即：明确案件管理办公室作为业务管理部门牵头，协调各业务部门和信息化部门进行 “检察业务统一软件”的研发。在软件推广和管理等方面，也充分发挥牵头作用，使信息化更有效地推进案件管理机制改革。<br>建立人才保障机制。案件管理信息化是长期的系统的逐步发展的过程，在软件研发中，既需要掌握计算机知识的人才，也需要检察业务权威专家，更急需既懂计算机技术又熟悉检察业务的复合型人才。业务专家是传统意义的资深检察官，是深度方向的，负责业务规范和案件质量管理，各业务专家各负责一个业务方向。而检察信息化复合型人才，是广度方向的，需要对各项业务的流程和逻辑、全局关系都要了然于心，需要既懂信息技术又熟悉检察业务，能够从业务规范、信息化管理等方面提出信息化解决方案，实现业务规范和流程再造。目前，应该说前两种人才都不难发现，然而我们实在缺少既对信息技术规范熟悉，又对法律规范和精神有所把握的复合型专家。鉴于此，笔者认为需要着力建立长效的案件管理信息化人才选拔、培养保障机制。</p>
+<h2 id="（二）方法论——注重检察机关信息资源规划，逐步推进信息资源整合利用"><a href="#（二）方法论——注重检察机关信息资源规划，逐步推进信息资源整合利用" class="headerlink" title="（二）方法论——注重检察机关信息资源规划，逐步推进信息资源整合利用"></a>（二）方法论——注重检察机关信息资源规划，逐步推进信息资源整合利用</h2><p>高复先教授通过综合詹姆斯马丁在《信息工程》和《总体数据规划》中讲述的实体分析和主题数据库的规划，认为信息资源规划（IRP）是指在进行总体数据规划的过程中进行数据管理标准化的工作，并通过该项工作进一步完善总体数据规划，使其成果更能在信息系统建设中发挥作用，信息资源规划理论在企业信息化的中得到了成功验证。笔者认为可以将IRP理论引入检察机关，进行全新的检察信息资源规划（Procuratorate Information Resource Planning，简称PIRP），结合现代管理理论，通过信息技术手段，对检察机关内部的人力、物力、财力和权力等资源重新进行科学的组织、分配和利用，以进一步强化检察机关法律监督职责。<br>具体而言，检察机关信息资源规划是指对检察机关信息资源的采集、处理、存储、传输、使用、转换和评价进行全面规划，打好数据管理和资源管理的基础，促进集成化的应用开发，逐步实现检察机关的数据集成（Data Integration）、应用级集成（Application Integration）和业务流程级集成（Business Process Integration，BPI）三个等级。数据集成的目的是为了实现业务流程级集成和应用级集成。<br>2001年， 最高人民检察院制定了《检察信息应用系统技术规范》，应该说当时检察机关的信息资源战略还停留在数据集成和交换阶段。笔者也于2002年撰文《检察信息网数据交换技术探讨》，详细论述了解决各地检察机关网络应用软件异构和上下级检察院之间的数据交换问题，实现网络在应用层上的互连互通等。<br>在案件管理机制改革和检察业务统一软件的新形势下，笔者认为首先应该明确“统一软件”是一个上位的概念，“统一软件”除检察业务软件外，还应包含队伍管理软件、检务保障软件等在内。其次，就目前高检着手开发的软件而言，应该站整个检察工作的高度，以信息资源规划（PIRP）为抓手，以业务软件统一为契机，逐步解决软件异构问题，更大限度实现信息资源的整合和利用，利用信息化手段实现检察工作统一、规范、高效等目的。</p>
+<h2 id="（三）标准和规范——关注多层面的标准和规范统一问题"><a href="#（三）标准和规范——关注多层面的标准和规范统一问题" class="headerlink" title="（三）标准和规范——关注多层面的标准和规范统一问题"></a>（三）标准和规范——关注多层面的标准和规范统一问题</h2><p>在案件管理信息化过程中，特别是统一软件的研发中，笔者认为应该在如下几个层次进行统一：</p>
+<h3 id="1-检察业务规范的统一"><a href="#1-检察业务规范的统一" class="headerlink" title="1. 检察业务规范的统一"></a>1. 检察业务规范的统一</h3><p>业务规范的统一是软件大统一的前提。笔者在多年检察信息化工作中发现，虽然全国检察机关都在按照法律法规办理各类案件，但是现行的法律法规难以一一细化和明确每个具体的办案行为，业务规范不先行一步，仅仅谈软件的“大统一”势必举步维艰。没有业务的规范，软件设计为满足各地需求会极大增加复杂度，在软件的版本管理上也将事倍功半。没有规范前提下的软件统一，案管部门就很难在全国范围内建立统一的案件流程管理机制和质量考评机制，难以履行案件管理部门的重要职责。<br>当然，应该注意的是，无论检察信息化还是检察业务规范化都是一个动态的渐进发展的过程，难以追求一步到位和一劳永逸。笔者认为只有由案管部门充当业务规范牵头人的角色，并将规范化工作作为一项长期性的任务来抓，才能有效解决案件管理信息化过程中不断出现的规范性问题，有效提高执法规范化水平。</p>
+<h3 id="2-数据格式规范的统一（结构化数据）"><a href="#2-数据格式规范的统一（结构化数据）" class="headerlink" title="2. 数据格式规范的统一（结构化数据）"></a>2. 数据格式规范的统一（结构化数据）</h3><p>在高检院2001年已经制定的数据代码和数据交换标准工作成果的基础上，针对现行法律法规和业务发展的变化，特别是案件管理工作的最新需求，修订《检察信息应用系统技术规范》（检察信息分类代码规范、检察业务数据格式规范、数据交换规范）。 </p>
+<h3 id="3-案件文书、电子档案格式规范的统一（非结构化数据）"><a href="#3-案件文书、电子档案格式规范的统一（非结构化数据）" class="headerlink" title="3. 案件文书、电子档案格式规范的统一（非结构化数据）"></a>3. 案件文书、电子档案格式规范的统一（非结构化数据）</h3><p>随着云时代的来临，大数据（Big data）也吸引了越来越多的关注。大数据（Big data）通常用来形容大量非结构化和半结构化数据，大数据目前在国内还处于初级阶段，但我们应该对非结构化数据的规范统一引起充分的重视，在目前的案件管理信息化工作中，应该重视两个方面内容。<br>案件文书方面。各地检察机关开发的业务软件都具有文书生成、流转等功能，但采用的技术不尽一致，不利于信息资源的整合和利用。建议高检院统一业务系统文书规范（业务层面）和文书格式（技术层面）。<br>电子档案方面。在电子档案规范尚未确立的情况下，可以先行规范案卷原始扫描文件的参数（扫描精度、图像尺寸等）标准，否则将来在电子组卷和电子归档方面会遇到格式兼容问题。</p>
+<h3 id="4-身份认证系统的统一"><a href="#4-身份认证系统的统一" class="headerlink" title="4. 身份认证系统的统一"></a>4. 身份认证系统的统一</h3><p>目前使用业务系统的检察机关虽然都实现了网上办案，但由于全国检察机关分级保护、身份认证系统建设等未能全面开展，大部分检察院的业务系统仅仅依靠密码登录系统，在使用过程中，弱密码、密码扩散等问题在一定程度上存在，保密要求较高的职务犯罪侦查等部门和线索管理等工作对信息化心存顾虑。高检院可建立统一的身份认证系统，至少在检察机关内部做到完全的网上办公办案，做到检察机关各应用系统的无缝集成，实现单点登录和认证，减少繁琐的纸质文书签名的手续。</p>
+<h3 id="5-数据交互格式的统一"><a href="#5-数据交互格式的统一" class="headerlink" title="5. 数据交互格式的统一"></a>5. 数据交互格式的统一</h3><p>检察机关应用软件大统一，除了解决自身异构软件的数据交互问题和各地原有检察业务软件的数据交换、数据迁移等问题外，还要考虑和外部系统（公安、法院等）信息系统的接口问题。基于此，高检院应该进一步完善在全国检察机关建设统一的数据交换平台和数据交换体系的理论研究，以期作为系统内和系统间的数据交换标准。</p>
+<h2 id="（四）工作建议——部署全国检察机关案管数据中心的建议"><a href="#（四）工作建议——部署全国检察机关案管数据中心的建议" class="headerlink" title="（四）工作建议——部署全国检察机关案管数据中心的建议"></a>（四）工作建议——部署全国检察机关案管数据中心的建议</h2><p>目前高检院已经决定开发全国统一的检察业务软件，笔者认为，案件办理功能（办案、审批等案件办理工作）、案件管理功能（案件管理工作）和案件统计功能（统计、查询）都是检察业务统一软件的有机组成部分。案件办理功能和案件管理功能是解决案件管理信息化方面的联机事务处理需求（OLTP），而统计查询功能是案件管理信息化方面的联机分析需求（OLAP）。当前案件管理信息化工作将工作重点放在了前者，对后者关注不够。<br>信息技术理论将数据处理分成两大类：联机事务处理OLTP（on-line transaction processing）、联机分析处理OLAP（On-Line Analytical Processing）。</p>
+<ul>
+<li>OLTP是传统的关系型数据库的主要应用，主要是基本的、日常的事务处理。对检察机关而言，即目前多地检察机关上线使用的网上办案系统，这种应用以支持业务处理为主要目的，被称为联机事务处理。</li>
+<li>OLAP是数据仓库系统的主要应用，由于现代管理理论更加强调决策的及时性和准确性，这使得以支持决策管理分析为主要目的的应用迅速崛起，这类应用支持复杂的分析操作，侧重决策支持，并且提供直观易懂的查询结果，被称为联机分析处理。目前检察机关尚未有此类软件。</li>
+</ul>
+<p>笔者认为统一软件不仅需要通过设计和完善软件的案件办理功能和案件管理功能，以解决统计数据的及时性和准确性问题外，更重要的是对现有的结构化数据和非结构化数据进行数据挖掘，得到隐藏在数据中的有价值的信息！现在统计工作已经划归案件管理部门，这为从根本上解决这些问题提供了一个契机。笔者建议：以检察信息资源计划（PIRP）为主导，在检察业务统一软件架构下，依托OLAP技术建立全国检察机关案管数据中心，逐步建立新一代检察业务决策支持（DSS）系统。<br>通过ETL（数据提取、转换和加载）技术从全国各级检察院统一业务系统中获得相关的结构化数据和非结构化数据，综合运用OLAP和数据挖掘等技术，以“案件”和“涉案人员”为主题，建立唯一、真实、可靠的综合数据平台，形成检察业务数据仓库即全国检察机关案管数据中心。在此基础上，积极探索建立检察业务决策支持系统（Decision Support System， DSS）以取代案件统计软件，实现全国刑事案件宏观分析，包括案发规律分析（地区、案由等），预测相关案件的发案趋势等，为检察机关机关打击和预防犯罪提供决策支持。</p>
+<p>综上所述，案件管理信息化是信息技术和现代管理理念在检察业务管理工作上的有机结合，它肩负着检察机关“近年来内部工作机制改革中最具革命意义的改革”的重任，事关办案模式的转变，事关规范执法和强化内部监督制约的成效，事关案件管理机制改革的成败，任重而道远，我们要进一步深刻认识其内在规律和特点，不断总结经验，努力推进其持续健康发展。</p>
+<p>（作者：达娃娜姆、徐彬；作者单位：四川省成都市人民检察院）</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2011/engineer.html" rel="prev" title="忙碌的工程师">
+                  <i class="fa fa-angle-left"></i> 忙碌的工程师
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2013/law.html" rel="next" title="《法律职业的精神》文摘">
+                  《法律职业的精神》文摘 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Robin</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
