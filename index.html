@@ -133,7 +133,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -235,6 +235,128 @@
             </div>
           <!--/noindex-->
         
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2025/model-app.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Robin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="法数纵横">
+      <meta itemprop="description" content="法律,数字检察">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 法数纵横">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/model-app.html" class="post-title-link" itemprop="url">大数据法律监督模型应用规范探讨与功能展望</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-09-01 00:00:00" itemprop="dateCreated datePublished" datetime="2025-09-01T00:00:00+08:00">2025-09-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-04-29 12:38:26" itemprop="dateModified" datetime="2026-04-29T12:38:26+08:00">2026-04-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/article/" itemprop="url" rel="index"><span itemprop="name">article</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <span id="more"></span>
+
+<hr>
+<h1 id="一、模型应用过程中的问题"><a href="#一、模型应用过程中的问题" class="headerlink" title="一、模型应用过程中的问题"></a>一、模型应用过程中的问题</h1><p>在模型应用竞赛过程中，时有业务部门反馈大数据法律监督模型规范应用和检察业务应用系统规范应用冲突的问题。比如：刑事检察对侦查监督平台使用有规范要求；刑事执行检察日常监督任务数据要进报表进行考核；行政检察现在只能从案件中推送行政执法监督案件；未成年人检察有综合履职率考核等等。</p>
+<h2 id="（一）案件序号终身制的背景知识"><a href="#（一）案件序号终身制的背景知识" class="headerlink" title="（一）案件序号终身制的背景知识"></a>（一）案件序号终身制的背景知识</h2><p>检察业务应用系统承载着具体的案件，其使用的规范性不容忽略。结合模型应用过程中的问题先回顾一下检察业务应用系统的基础知识：统一受案号、部门受案号和案件序号。</p>
+<h3 id="1-统一受案号"><a href="#1-统一受案号" class="headerlink" title="1.统一受案号"></a>1.统一受案号</h3><p>统一受案号代表了不同案件类别之间的直接关系，在系统能通过提案、送案、文书移送等操作，前后案件类别均具有相同的统一受案号（简称“案号”）。</p>
+<h3 id="2-部门受案号"><a href="#2-部门受案号" class="headerlink" title="2.部门受案号"></a>2.部门受案号</h3><p>检察业务应用系统设计之初，检察机关内设机构特别是刑事检察业务是根据案件流程设置部门，所以案件在每个部门办理时有部门内的编号，当时命名为“部门受案号”。随着内设机构改革和业务信息化研究的深入，将检察业务应用系统内不同环节的程序流程定义为“案件类别”，将“部门受案号”定义为“案件类别编号”似更为科学（简称“件号”）。</p>
+<h3 id="3-案件序号"><a href="#3-案件序号" class="headerlink" title="3.案件序号"></a>3.案件序号</h3><p>早在2021年，最高人民检察院人大工作报告中就正式提出“实行案件序号终身制，无论经历多少层级、环节，一号到底，让检察办案能回溯、司法责任可落实”。实际上，自统一业务应用系统上线，就有一个事实上的案件序号：统一受案号。当然，统一受案号更侧重技术层面，重点记录的是案件类别之间的直接关系，其设计之初也没有想过要“担当案件序号的大任”。实践中存两个情形，一是“断线”情形，比如：公安机关将团伙犯罪的一个案件分三次报捕，系统只能分配三个统一受案号；检察机关内部由于系统不通、线下移送等问题，多头被分配不同的统一受案号；应提案未提案导致系统重新分配新的统一受案号等等。二是“粘连”情形，正如之前所述，统一受案号记录是“件”之间的直接关系，那么，刑事案件线索移送产生的公益诉讼案件（按照当前设计，肯定是相同的统一受案号），按照“案件序号”的定义，是否应当另行分配“案件序号”？这些问题我们暂不讨论，但统一受案号“串联”功能，我们是应当尊重的。</p>
+<h2 id="（二）不尊重统一受案号的后果"><a href="#（二）不尊重统一受案号的后果" class="headerlink" title="（二）不尊重统一受案号的后果"></a>（二）不尊重统一受案号的后果</h2><p>忽视统一受案号，就是忽视各个案件流程之间的关系，忽视“案”的的整体性。以侦查活动监督模型应用为例，如果我们通过模型管理平台跑出了监督线索，直接推送成侦查活动监督案件，那么会产生以下问题：在检察业务应用系统内，一审公诉案件和侦查活动监督案件没有相同的统一受案号；案件全景不能串联一审公诉案件和侦查活动监督案件；不能从“案”的角度全面掌握公安侦查活动违法情况；在侦查监督平台也不能能统计查询到所有的侦查活动监督数据……</p>
+<h2 id="（三）初步分析"><a href="#（三）初步分析" class="headerlink" title="（三）初步分析"></a>（三）初步分析</h2><p>初步分析，问题的实质在于：基于个案全生命周期流转的检察业务应用系统，如何系统性的对接融合基于数据推出的法律监督线索。基于保持检察业务应用系统内统一受案号延续性考虑，在模型应用时，尽可能坚持同“案”的“件”有相同的统一受案号，为“案件全景”夯实基础，不因模型应用造成检察业务应用系统内产生大量“碎”案件。</p>
+<h1 id="二、当前如何规范监督模型应用"><a href="#二、当前如何规范监督模型应用" class="headerlink" title="二、当前如何规范监督模型应用"></a>二、当前如何规范监督模型应用</h1><h2 id="（一）刑事检察"><a href="#（一）刑事检察" class="headerlink" title="（一）刑事检察"></a>（一）刑事检察</h2><h3 id="1-指引"><a href="#1-指引" class="headerlink" title="1.指引"></a>1.指引</h3><p>刑事检察业务是检察业务应用系统中流程繁多、自成闭环的业务，审查逮捕案件和一审公诉案件为主体几乎贯穿了刑事诉讼全过程。为尊重检察业务应用系统本身的“连贯性”，从模型管理平台推出的监督线索，基本原则是检察业务应用系统规范性优先，根据监督方式选择不同路径。如果拟在捕诉案件中直接生成文书监督，关联捕诉案件；如果需要登记并调用侦查监督平台，也关联捕诉案件；如果拟生成侦查监督案件，则绑定侦查监督平台推出生成的侦查活动监督案件。</p>
+<h3 id="2-举例"><a href="#2-举例" class="headerlink" title="2.举例"></a>2.举例</h3><p>如果在模型管理平台使用“保证金应当退还未退还”模型发现了监督线索，不应当直接推送成案（侦查活动监督案件），而应当在原一审公诉案件中，点击【侦查监督】调用侦查监督平台，在侦查监督平台中添加该案的违法违规事项（违法、变相没收取保候审保证金－应当退换而不退还保证金），选择监督方式（转侦查活动监督案件），在检察业务应用系统处理完毕后，在模型管理平台监督线索关联侦查活动监督案件。</p>
+<h2 id="（二）刑事执行检察"><a href="#（二）刑事执行检察" class="headerlink" title="（二）刑事执行检察"></a>（二）刑事执行检察</h2><h3 id="1-指引-1"><a href="#1-指引-1" class="headerlink" title="1. 指引"></a>1. 指引</h3><p>当前检察业务应用系统的刑事执行检察业务体系性是不强的，案件流程本身就比较“碎”，没有将刑事执行检察业务“派驻+巡回+科技”的特点体现出来。以派驻为例，没有以被监督单位为基础整合相关工作（当然，这是由于检察业务应用系统业务模型单一导致的“削足适履”现象）。针对派驻工作，科学的业务场景是派驻人员登录系统，即查阅被监督单位的基础工作情况，根据检察工作要求新建相关内容，而且相关流程应当是基于职责（监管场所）查阅而非基于承办关系（监督案件）查阅。</p>
+<h3 id="2-举例-1"><a href="#2-举例-1" class="headerlink" title="2.举例"></a>2.举例</h3><p>以脱漏管模型应用为例：</p>
+<ul>
+<li>1）【模型应用】在最高检模型管理平台选定模型，导入数据；</li>
+<li>2）【日常监督任务】根据最高检模型平台推出监督线索，在检察业务应用系统中手工新建日常监督任务，并填入相关脱漏管数据；</li>
+<li>3）【书面纠违】正常办理日常监督任务，可以书面纠违的，正常办理纠违案件；</li>
+<li>4）【案件关联】在最高检模型平台推出的监督线索选择关联已办案件，填入步骤三的纠违案件的部门受案号。</li>
+</ul>
+<h2 id="（三）行政检察"><a href="#（三）行政检察" class="headerlink" title="（三）行政检察"></a>（三）行政检察</h2><p>今年<strong>全国检察机关行政检察工作会议</strong>指出，行政检察的“四梁八柱”基本搭建完成，职能体系上，形成以<strong>行政诉讼监督</strong>为重心，统筹推进依法有序开展<strong>行政违法行为监督</strong>和依法规范推进<strong>行刑反向衔接</strong>的“三大职责”。这里重点说说行政违法行为监督。 “行政违法行为监督，严格限定在行政诉讼或行刑反向衔接中发现”的要求，在检察业务应用系统中需要规范应用，即：需要在具体的行政诉讼监督案件里面，从“案件办理”-“发起行政违法监督”，新建行政违法行为监督案件。模型推出行政违法行为监督线索，不应当直接在模型管理平台中推送成案，如果监督线索有行政诉讼案件为依托，可以考虑监督线索关联行政诉讼案件，从行政诉讼案件中推出行政违法监督案件。</p>
+<h1 id="三、分析与展望"><a href="#三、分析与展望" class="headerlink" title="三、分析与展望"></a>三、分析与展望</h1><h2 id="（一）技术分析"><a href="#（一）技术分析" class="headerlink" title="（一）技术分析"></a>（一）技术分析</h2><p>大数据法律监督模型规范应用和检察业务应用系统规范应用冲突的问题，其实质是批量监督线索和个案监督线索冲突问题。检察业务应用系统作为一个闭环的生产系统，在很多场景已经对个案线索生成及流转有流程实现，特别是基于监督线索，还有两个规范性文件进行规范（《人民检察院内部移送法律监督线索工作规定》《人民检察院案件管理部门开展法律监督线索管理工作实施细则》）并在检察业务应用系统中实现。而在大数据法律监督模型管理平台按照“数据-模型-线索-（案件）”的逻辑闭环，同样内置了监督线索管理功能，甚至更加系统和详细，包括：线索研判、线索分流、线索分配以及线索台账（统计）等功能。对于线索和案件，两个系统业务无规范、边界不清晰，功能实现上统筹协调不足，所以导致应用的规范性问题。</p>
+<h2 id="（二）改进需求"><a href="#（二）改进需求" class="headerlink" title="（二）改进需求"></a>（二）改进需求</h2><ol>
+<li><p>绑案号。如果涉及检察业务应用系统已经有”闭环“案件的，在大数据法律监督模型管理平台推送成案推送成案时需绑定统一受案号，确保在新建案件时，不另行生成统一受案号，不破坏”案件全景“。</p>
+</li>
+<li><p>推线索。针对检察业务应用系统已有”类线索管理功能“业务，推送线索而非案件。如上文提及的侦查监督平台，其本身就是对侦查活动的违法违规事项进行监督，可以考虑将模型平台发现的侦查活动监督线索精准匹配规则后推送到侦查监督平台供检察官审查，合并到现有违法违规事项，纳入检察业务应用系统统一办理。</p>
+</li>
+</ol>
+<h2 id="（三）规范要求"><a href="#（三）规范要求" class="headerlink" title="（三）规范要求"></a>（三）规范要求</h2><p>最高人民检察院《关于全面深化检察改革、进一步加强新时代检察工作的意见》提出要“健全内部法律监督线索移送机制，探索建立法律监督线索库“。推行法律监督线索移送协作机制是更好落实司法责任制改革的必然要求，是完善检察监督体系、提高检察监督能力，切实履行法律监督职责的重要途径。法律监督线索移送工作作为一项全局性工作，涉及面广。根据两个规范性文件，案件管理部门应当充分发挥“枢纽”作用，建立线索移送和跟踪台账，定期对线索移送、接收、办理等情况进行统计、分析、通报，积极发挥监督服务和统筹协调职能。各业务部门树牢检察一体化履职理念，积极会商研判案件线索，移送部门与办理部门加强沟通协调，互相配合，保证线索办理质效。统筹规划，分工协作，自觉把法律监督线索移送工作往前推进一步，往深做实一分，推动各项检察工作取得突破性进展。</p>
+<h2 id="（四）功能展望"><a href="#（四）功能展望" class="headerlink" title="（四）功能展望"></a>（四）功能展望</h2><p>按照“在办案中监督、在监督中办案”的思路对大数据法律监督模型管理平台和检察业务应用系统进行需求统筹、功能整合、一体改造。</p>
+<ol>
+<li><p>积极推进大数据法律监督模型管理平台体系化升级和实质化应用。针对现有已经上架模型特点可以粗分为两类：批量的个案同步监督线索类模型、全新的批量监督线索类模型。前者包括目前侦查监督模型、审判监督模型、刑事执行监督模型等。这类模型都应当是“实时”的模型，在案件办理或日常监督过程中，只要数据不断输入，监督线索就会不断生成，与个案办理或日常监督同步，不应当按照批量治理、批量处理的工作方式，其特性更适合体系化整合到检察业务应用系统的”监管“子系统；后者更适合民事检察、行政检察和公益诉讼检察，依托内外部数据依职权开展新的监督工作，这就需要在模型平台夯实线索研判及分流分配工作，成熟后直接向检察业务应用系统推送成案。</p>
+</li>
+<li><p>积极推进检察业务应用系统智能化升级。检察业务应用系统”老朽“的架构在数智化浪潮下疲态尽显，比如：需要人工填录案卡、人工发现并填录违法事项、人工发起流程监控、人工新建日常监督任务等等。一方面要夯实要素采集提取机制，从电子卷宗、协同数据、电子数据、音视频资料等多源数据智能化提取案件办理需要的各类数据要素，并形成数据资源供场景应用；另一方面要对”监管“系统进行智能化升级甚至全新构建，包括对公安机关的侦查监督平台、对审判机关的审判监督平台、对监管机构的刑事执行检察日常监督平台以及对检察机关内部的流程监控子系统。这些平台或子系统都应该具备从多源数据获取监督实行并进行监督案件闭环办理的能力，即：能够综合使用检察业务应用系统结构化数据、电子卷宗要素化数据、电子证据数据、视听数据（同步录音录像等），政法协同共享数据、互联网开放数据等等实时智能分析判断，推出监督线索并成案，实现“数据-规则-线索-案件”的完整闭环。</p>
+</li>
+<li><p>畅想下一代检察业务应用系统。当前的“办案系统”，应该说只实现了案件的“线上办理”，距离检察机关“业务数据化、数据业务化”还有很多工作需要开展。下一代检察业务应用系统，应该是生产系统和数据系统深度融合的系统，是全面实现业务生成数据、数据反哺业务的系统，以检察官“获得感”为出发点和落脚点，助推检察官依法一体履职、综合履职、能动履职，落实高质效办好每一个案件的基本价值追求。在下一代检察业务应用系统中，不再存批量监督线索和个案监督线索冲突问题，而是需要考虑在新系统中，如何布局办案与监督功能。“在办案中监督、在监督中办案”的检察理念反映了检察工作的基本规律，法律监督是办案的目的、价值和意义所在，办案也不是简单的、孤立的诉讼活动，而是要通过诉讼活动保障法律统一正确实施。如果厘清了这个关系，现在的“办案系统”和“监督平台”，都是将来下一代检察业务应用系统的有机组成部分，现在所谓的冲突问题也就不复存在，甚至于将来大数据法律监督管理平台也不复存在——所有的模型、所有的规则、所有的技战法，都将像侦查监督平台、审判监督平台、刑事执行监督平台一样，按照四大检察布局，融合在下一代检察业务应用系统中！</p>
+</li>
+</ol>
+
       
     </div>
 
@@ -966,98 +1088,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/fen-an.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2022/shi-nian.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Robin">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="法数纵横">
-      <meta itemprop="description" content="法律,数字检察">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 法数纵横">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/shi-nian.html" class="post-title-link" itemprop="url">【检察先锋】徐彬：十年“画”蝶</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-03-18 00:00:00" itemprop="dateCreated datePublished" datetime="2022-03-18T00:00:00+08:00">2022-03-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2026-04-28 12:42:51" itemprop="dateModified" datetime="2026-04-28T12:42:51+08:00">2026-04-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/article/" itemprop="url" rel="index"><span itemprop="name">article</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>徐彬，四川省成都市人民检察院案件管理办公室副主任，工学、法学学士，四级高级检察官，四川省检察业务专家。参加检察工作以来先后荣立个人二等功1次，三等功5次，嘉奖3次，最高检统一业务应用系统应用人才库成员，获评四川省政法系统先进个人、成都市直机关优秀共产党员等称号。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/shi-nian.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
