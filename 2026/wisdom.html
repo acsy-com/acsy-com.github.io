@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.acsy.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="本体智能的路径，本质上是在连接主义的架构上引入符号主义的严谨性——将大模型的“想象力”锚定在检察业务的语义层之上，让分析过程可见、可溯，最终把判断权交还检察官。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？">
+<meta property="og:url" content="https://blog.acsy.com/2026/wisdom.html">
+<meta property="og:site_name" content="法数纵横">
+<meta property="og:description" content="本体智能的路径，本质上是在连接主义的架构上引入符号主义的严谨性——将大模型的“想象力”锚定在检察业务的语义层之上，让分析过程可见、可溯，最终把判断权交还检察官。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://ftp.acsy.com/img/ai3.png">
+<meta property="article:published_time" content="2026-09-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-09-22T01:36:00.907Z">
+<meta property="article:author" content="Robin">
+<meta property="article:tag" content="法数纵横,极客纵横,纵横沙龙,法律,信息化,数字化,智能化,检察业务应用系统,数字检察,大数据法律监督模型,检察智能化应用">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ftp.acsy.com/img/ai3.png">
+
+
+<link rel="canonical" href="https://blog.acsy.com/2026/wisdom.html">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://blog.acsy.com/2026/wisdom.html","path":"2026/wisdom.html","title":"当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？ | 法数纵横</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">法数纵横</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">法律与数字化的一隅之言</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%9C%AC%E4%BD%93%E6%99%BA%E8%83%BD%E7%9A%84%E5%8F%91%E5%B1%95%E8%83%8C%E6%99%AF"><span class="nav-number">1.</span> <span class="nav-text">一、本体智能的发展背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E6%9C%AC%E4%BD%93%E6%99%BA%E8%83%BD%E5%AF%B9%E6%95%B0%E5%AD%97%E6%A3%80%E5%AF%9F%E7%9A%84%E5%90%AF%E7%A4%BA"><span class="nav-number">2.</span> <span class="nav-text">二、本体智能对数字检察的启示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%A4%AF%E5%AE%9E%E6%9C%AC%E4%BD%93%E6%99%BA%E8%83%BD%E7%9A%84%E5%9F%BA%E7%A1%80%EF%BC%9A%E4%B8%9A%E5%8A%A1%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%8D%8F%E4%BD%9C%E5%85%B1%E8%BF%9B"><span class="nav-number">3.</span> <span class="nav-text">三、夯实本体智能的基础：业务与技术协作共进</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%80%EF%BC%89%E6%A1%88%E4%BB%B6%E5%85%A8%E8%A6%81%E7%B4%A0%E4%BD%93%E7%B3%BB%E5%BB%BA%E8%AE%BE"><span class="nav-number">3.1.</span> <span class="nav-text">（一）案件全要素体系建设</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%BA%8C%EF%BC%89%E6%95%B0%E6%8D%AE%E8%B5%84%E6%BA%90%E5%BA%93%E5%8F%8A%E4%B8%9A%E5%8A%A1%E7%9F%A5%E8%AF%86%E5%BA%93%E5%BB%BA%E8%AE%BE"><span class="nav-number">3.2.</span> <span class="nav-text">（二）数据资源库及业务知识库建设</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%EF%BC%88%E4%B8%89%EF%BC%89%E9%AB%98%E8%B4%A8%E9%87%8F%E6%A3%80%E5%AF%9F%E8%AF%AD%E6%96%99%E5%BA%93"><span class="nav-number">3.3.</span> <span class="nav-text">（三）高质量检察语料库</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">4.</span> <span class="nav-text">结语</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Robin</p>
+  <div class="site-description" itemprop="description">法律,数字检察</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.acsy.com/2026/wisdom.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Robin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="法数纵横">
+      <meta itemprop="description" content="法律,数字检察">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？ | 法数纵横">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2026-09-21 00:00:00" itemprop="dateCreated datePublished" datetime="2026-09-21T00:00:00+08:00">2026-09-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2026-09-22 09:36:00" itemprop="dateModified" datetime="2026-09-22T09:36:00+08:00">2026-09-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/article/" itemprop="url" rel="index"><span itemprop="name">article</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p>本体智能的路径，本质上是在连接主义的架构上引入符号主义的严谨性——将大模型的“想象力”锚定在检察业务的语义层之上，让分析过程可见、可溯，最终把判断权交还检察官。</p>
+<span id="more"></span>
+
+<hr>
+<p>当大语言模型在案件实体审查中给出一个“看似正确”的答案时，它究竟是在推理，还是在计算概率？这是检察智能化无法回避的追问。众所周知，大语言模型的本质是对海量数据中统计模式的拟合，而非基于逻辑规则的演绎推理——它输出的是“概率结果”，而非“规则结果”。对于逻辑性要求极高的法律行业而言，这种结果能否被称为“智慧”？</p>
+<p>根据 DIKW 模型，数据、信息更接近硅基计算机，知识与智慧更接近碳基人类。那么，人类的知识能否被结构化表达，从而被人工智能应用？这是一个值得研究的问题。近期一位长期深耕检察系统信息化的资深专家在交流中介绍了“本体智能”，也许这为大语言模型输出“规则结果”提供了一条可行路径。</p>
+<h2 id="一、本体智能的发展背景"><a href="#一、本体智能的发展背景" class="headerlink" title="一、本体智能的发展背景"></a>一、本体智能的发展背景</h2><p>中国人工智能产业发展联盟（AIIA）与大数据技术标准推进委员会（CCSA TC601）共同编制发布的《本体智能研究报告（1.0）》指出（括号内文字非原文，系笔者附加）：</p>
+<ul>
+<li>（过程.vs.语义）大量结构化、半结构化与非结构化数据沉睡于各类信息系统中，彼此割裂、语义异构，难以被有效整合与利用。 这一困境的深层根源在于传统信息系统建立在面向过程、以数据存储为核心的设计范式之上，只能描述数据的语法结构，无法表达数据之间的语义关联、概念层级与逻辑约束。</li>
+<li>（概率.vs.逻辑）就原理而言，大语言模型与其他深度学习方法一样，本质上是对海量数据中统计模式的拟合，而非基于逻辑规则的演绎推理。这意味着，规模的增长虽显著提升了模型的表现，却未改变其内在局限：在需要严格逻辑链条的推理、因果推断与精确业务约束的场景中，模型仍会生成看似合理实则错误的内容，即所谓“幻觉”。</li>
+<li>（黑箱.vs.知识）以大语言模型为代表的生成式AI虽在语义理解与内容生成上表现突出，但其“黑箱” 特性在可解释性、可控性与可靠性方面存在局限……更普遍面临业务知识不足等现实痛点，使结构化知识表示的需求从学术讨论转化为产业刚需。</li>
+</ul>
+<p>说直白一点就是，大语言模型的“一本正经的胡说八道”是其必然的内在局限。大语言模型是在海量网络文本上训练出来的，这个训练过程让它们特别擅长把话说得权威、笃定、滴水不漏。就其在检察机关应用而言，由于检察机关的优质语料并未在互联网发布，大语言模型训练时根本就不掌握，大语言模型可能“学会”了法律的“皮毛“，但在深度逻辑推理方面，并不会像法律人一样思考。它只是在做它最擅长的事——根据统计规律，把下一个词接得尽可能通顺、尽可能像人话——基于这种原理且是黑箱生成的审查报告，我们敢直接采用么？</p>
+<p>本体智能，是努力降低 AI 幻觉的一种方案：它尝试将知识“结构化”，让推理从隐性直觉提升为显性计算，给出“本体约束下的规则化推理结果”；而这里的本体，并非机器自行生成，而是由领域专家梳理术语，由知识工程师确定类别、属性和关系，最终形成形式化语义模型，是“人类工程师与业务专家协作产出的语义资产”。</p>
+<p>什么是本体智能？通俗的说，就是把业务里的「类（概念）、实例、关系、函数、公理」用统一语言写下来，让「人」能看懂、「机器」能推理、「系统」能互通。</p>
+<h2 id="二、本体智能对数字检察的启示"><a href="#二、本体智能对数字检察的启示" class="headerlink" title="二、本体智能对数字检察的启示"></a>二、本体智能对数字检察的启示</h2><p>笔者长期从事检察业务信息化工作，初步了解本体智能后认为：检察业务应用系统之前的一些实务考虑，在智能化时代找到了路径。</p>
+<p>早在2019年研发检察业务应用系统2.0时，专班就提出：</p>
+<blockquote>
+<p>统一业务应用系统的案件是根据文书、案卡、卷宗、流程以及业务规则进行有效组合，进而实现检察业务具体功能和数据交换具体功能。“没有规矩不成方圆”，业务规则是统一业务应用系统2.0的核心内容之一，也是系统研发的重点和难点，需要各级检察机关共同参与、共同维护。业务规则是四大要素的“粘合剂”，是软件硬约束规范办案的直接体现。业务规则库包括文书依赖关系、数据填录规则、流程操作指引等，案管部门与办案部门共同制定案卡-案卡关系规则、案卡-文书关系规则、文书-文书关系规则，完善“事前提醒、事中监督、事后评查”共用的业务规则库，从受案开始，系统根据业务规则库对检察人员进行实时指引，打造全方位立体的提醒、监督、整改的案件监督体系，共同提高案件办理的质量，提高司法公信力。</p>
+</blockquote>
+<p>检察机关信息系统不缺规则：检察业务系统内置规则、检察统计系统内置规则、数智案管系统内置规则……但没有统一的规则库，实践中，还出现规则冲突的情况。本体智能，为业务规则找到了一条工程化的路径。正如《本体智能研究报告（1.0）》指出：传统 BI 系统通过人工设定规则进行数据分析，这些规则往往是经验性的、碎片化的，缺乏逻辑一致性保障。而基于本体的推理建立在描述逻辑的形式化基础上，可以自动检测知识库中的不一致性，推导出隐含的语义关系，并保证推理过程的逻辑完备性。</p>
+<p>从智能化应用角度分析，主流工程实践包括垂直领域微调（参数层)、检索增强生成（外部知识层）和提示词工程优化（输入控制层），各有优势与困境。</p>
+<ul>
+<li>第一，垂直领域微调。其做法是：对检察业务资料、办案数据和卷宗材料进行脱敏、去标识化和合规审查后，构建高质量内网专业数据集，对通用大语言模型开展检察领域自适应预训练（继续预训练）和监督微调（SFT），使领域知识和任务模式内化到模型参数中。其困境在于：领域能力被固化在特定基座上，而通用基座本身快速迭代；迭代后的新基座在通用能力上可能接近甚至超越投入大量成本训练的领域专用模型，导致原有微调成果面临贬值、重训或重对齐风险。</li>
+<li>第二，检索增强生成（RAG）。领域知识更新通常由业务驱动，节奏相对可控；通用基座能力跃迁由技术驱动，持续加速。因此，建设检察业务知识库，并通过RAG为模型提供外部知识支撑，是当前兼顾知识准确性与时效性的可行方案。其困境在于：RAG主要解决知识供给和溯源问题，本身不改变基座的推理模式，难以单独提供深层领域推理和专业判断能力；且知识准确性仍依赖检索质量、分块策略和召回效果。</li>
+<li>第三，提示词工程优化。这通常是成本最低、迭代最快的推理时干预方式。通过预置结构化提示词模板，检察官可以较低门槛与系统交互，从而提升输出的规范性和精准度。其困境在于：提示词难以单独解决复杂领域推理问题，也无法弥补基座根本不知道的事实；后者需结合RAG等外部知识机制。</li>
+</ul>
+<p>当前检察机关的人工智能实践，目前主要还是第三种方式，没有垂直领域微调模型、没有能力强大的RAG，能事实解决问题的业务场景也非常有限。要实现高质量的检察智能化应用，最理想的当然是依托垂直领域微调模型在参数层实现，但正如之前分析，如果领域能力被固化在特定基座上，而通用基座本身快速迭代，将导致微调成果付诸东流，检察机关未必适合自主立项开展对大模型的垂直领域微调工程。但本体智能提供了一条可行的路径，《本体智能研究报告（1.0）》指出：</p>
+<blockquote>
+<p>本体的模块化结构和形式化特征使其具有良好的可演进性。不同于隐式编码在模型参数中的分散知识，本体知识可以独立于具体应用系统进行维护、更新和版本管理。当领域知识发展变化时（如新的法律法规颁布），只需更新相应的本体模块，而无须重新训练整个AI模型。这种“知识-模型分离”的架构优势在长周期、高合规要求的行业（如法律）中尤为显著。</p>
+</blockquote>
+<p>但《本体智能研究报告（1.0）》同时指出该路径也有风险：</p>
+<blockquote>
+<p>未来或许出现无需显式建模即可理解业务语义的技术路径，使部分决策者对本体建设的长期价值产生疑虑，若未来出现无需显式构建本体即可实现业务语义理解的技术路径，当前投入是否将沦为沉没成本？</p>
+</blockquote>
+<p>说直白一点，垂直领域微调，投入可能沦为沉没成本，本体智能建模，投入也可能沦为沉没成本。怎么办？</p>
+<p>一是正确应用大模型当前能力。对照业务需求场景的金字塔，我们不要急于摘取金字塔尖的皇冠，而应当夯实基础应用。比如：1.在业务标准供给充分的前提下，实现对电子卷宗解析、证据要素提取，构建一套与案卡系统并行的案件要素体系。2.通过人工智能技术提取数据要素，并由人工构建严格规则，进而推送监督线索供检察官参考，做到结果可控。当然，在能够接受“概率结果”的检察监督场景，更可以依托大模型本身能力，构建智能化的侦查监督平台、审判监督平台、刑事执行检察平台、民事行政公益诉讼监督线索平台等。3. 在工作网部署大语言模型，供检察官开展“会话”类应用；部署智能体管理平台，供检察官自主构建智能体，由智能体辅助完成工作。</p>
+<p>二是科学规划大模型深度应用。案件的实体审查，很难接受大语言模型的“概率结果”。从长远看，应将“大语言模型作为感知前端，将本体和规则引擎作为符号后端，形成可解释、可验证、可执行的规则结果”。实践中，按照《本体智能研究报告（1.0）》指引：</p>
+<blockquote>
+<p>围绕具体业务痛点与决策需求展开建设，而非将本体本身作为目标。精准识别高价值应用场景，优先筛选数据基础相对扎实但语义歧义突出、决策逻辑复杂且依赖专家经验、跨部门协同频繁且标准不一的业务场景，比如知识密集型场景与流程协同型场景。</p>
+</blockquote>
+<p>大语言模型擅长处理文本，但检察业务不是单纯的文本处理问题。以刑事案件犯罪构成分析为例：采用三阶层论还是四要件论，各自需要提取哪些要素，如何穷尽理论路径、暴露争议焦点——这些不是“把电子卷宗读一遍”就能回答的。大语言模型能生成一段看起来像犯罪构成分析的文字，但它既不能真正把握三阶层与四要件在分析重心上的差异，也难以确保分析路径的周延性。所以在案件实体审查中很有必要引入本体智能：以检察机关内部的知识库、规则库、语料库等为基础，把文本形态的法律法规、指导案例、工作规范等检察业务知识，从“供人阅读的文档”转化为“机器可执行的规则”，让大模型在这个结构化框架内调用知识、展开推理生成“规则结果”，而非经“黑箱”生成“概率结果”。</p>
+<h2 id="三、夯实本体智能的基础：业务与技术协作共进"><a href="#三、夯实本体智能的基础：业务与技术协作共进" class="headerlink" title="三、夯实本体智能的基础：业务与技术协作共进"></a>三、夯实本体智能的基础：业务与技术协作共进</h2><p>早在2023年，某基层院的新闻稿就宣称要打造“元宇宙”应用样板，如今看来，咱公司的同志未免太过乐观了。连大语言模型的应用本身都受困于业务知识不足，而要完整复现真实世界，又需要何等庞大的知识体系来支撑？</p>
+<p>检察机关的智能化应用，有太多太多需要完善的基础工作，没有熟悉（广义）信息化的业务专家参与，数字检察难以走深走实。正如《本体智能研究报告（1.0）》指出的：</p>
+<ul>
+<li>本体不是一次性工程制品，而是需要持续演化的有机知识体。建议组建专门团队，由业务代表、数据架构师和本体工程师共同参与，定期评审本体的健康度与适应度。</li>
+<li>知识萃取本质上是对专家隐性知识的显性化过程，本体构建高度依赖业务专家的时间投入与深度参与，但真正的业务专家往往处于核心岗位，难以进行系统性的知识梳理与规则化表达。</li>
+<li>实践中，这一矛盾常表现为业务部门与IT部门的权责推诿，前者视本体建设为技术侧事务，后者则因业务输入不足而难以推进，最终导致项目陷入僵局甚至终止。</li>
+</ul>
+<p>即便在主流行业，本体智能仍处于探索初期。检察领域尚缺乏积累和研究，但可以开展相关基础准备工作，比如：</p>
+<h3 id="（一）案件全要素体系建设"><a href="#（一）案件全要素体系建设" class="headerlink" title="（一）案件全要素体系建设"></a>（一）案件全要素体系建设</h3><p>最高人民检察院检察长应勇在<a target="_blank" rel="noopener" href="https://www.spp.gov.cn/tt/202601/t20260129_717236.shtml">湖南长沙</a>调研时强调，“标准化、全要素的案卡是实现检察管理科学化、精准化的基础”。目前，人工智能能力已足以支撑以电子卷宗和文书卷宗为基础全面解析案件要素。但当前检察智能化实践中，虽构建了大量业务场景，各场景应用却将电子卷宗一遍又一遍地“提取”，却没有留下任何可供检察官查阅的最基础的案件要素信息。其根源在于：没有标准供给。</p>
+<p>当前检察业务应用系统的案卡主要采集基础类案件要素信息，针对实体性审查（如罪名特点）的案件要素信息较少。检察业务应用系统2.0针对毒品犯罪案件，新增了“毒品犯罪有关情况”案卡（包括血液酒精含量、毒品类型和数量等案卡项），这是刑检部门在专业化背景下对案件要素采集迫切需求的反映。在专业化背景下，这类需求会越来越多，但依赖新增案卡全面描述案件不具有可持续性。利用大语言模型按照法律逻辑对案件进行结构化解析，探索建立包括案件基础信息、主体信息、行为要素、证据信息、法律适用、程序事项、量刑要素、社会影响、质量评价等内容在内的案件全要素体系。除通用的案件要素体系外，还需构建分罪名的要素体系。比如：危险驾驶罪需要侧重采集驾驶资质等基础信息，构成要件方面侧重采集醉酒驾驶、追逐竞驶等情节，程序合法性方面侧重血样提取、保管、送检合规性等；毒品类犯罪在证据链方面需要侧重采集物质流（毒品流向）、资金流（毒资流向）、信息流（人员轨迹等），程序合法性方面侧重称量、取样、送检程序等。</p>
+<p>业务部门做好案件全要素体系的标准供给，技术部门做好人工智能要素提取的能力支持，才能真正夯实人工智能赋能检察业务的数据基础。</p>
+<h3 id="（二）数据资源库及业务知识库建设"><a href="#（二）数据资源库及业务知识库建设" class="headerlink" title="（二）数据资源库及业务知识库建设"></a>（二）数据资源库及业务知识库建设</h3><p>一是结构化数据资源建设。检察业务应用系统已经积聚了相当丰富的内部数据，按照国家数据标准构建检察业务数据标准体系，持续优化、更新检察业务基础库、主题数据库和专题数据库，依托统一的数据系统打通生产系统的藩篱，用治理好的数据助力全面审查案件，切实让数据反哺业务。<a href="https://blog.acsy.com/2024/lan-hai.html">比如</a>)：犯罪嫌疑人及被告人主题库、刑事诉讼案件主题库、犯罪嫌疑人强制措施专题库等。</p>
+<p>二是半结构化、非结构化数据资源建设。检察业务应用系统中的检察文书、外来文书和电子卷宗资源非常丰富，只因利用不便，成为“沉睡”的数据宝藏。因此，需依托人工智能能力，用好“沉睡”的业务数据。比如：检察文书库、裁判文书库、电子卷宗库等。</p>
+<p>三是业务知识库建设（面向检察人员）。在最高检统筹下全面、及时地收集、挖掘各地检察机关的知识资源和经验成果，形成权威、强大、高效的资源库供全国检察机关使用，为司法办案提供强大的知识服务和能力支持。检察知识服务体系应当包括检察领域知识分类标准体系、公共法律知识库、法院判例库、检察院案例库、专业化办案知识库、检察内部知识库和音视频知识库等，检察人员可根据权限通过智能问答、分类查询等方式使用知识服务，并可在个人账号进行知识管理。</p>
+<h3 id="（三）高质量检察语料库"><a href="#（三）高质量检察语料库" class="headerlink" title="（三）高质量检察语料库"></a>（三）高质量检察语料库</h3><p>上海市检察院在高质量数据集建设方面做了有益的探索，编制了<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A3%80%E5%AF%9F%E8%AF%AD%E6%96%99%E5%BA%93%E5%BB%BA%E8%AE%BE%E5%AF%BC%E5%88%99/67569447">《人工智能检察语料库建设导则》</a>（已由上海市人工智能行业协会正式发布为团体标准），正如其导则所述：</p>
+<blockquote>
+<p>在数字检察战略向纵深推进的背景下，语料作为检察人工智能技术落地应用的关键基石，其质量与规模直接关系到智能化赋能检察工作的精准性与可信度，战略价值愈发显著。建设高质量的检察语料库，能够为上海检察机关在细分业务场景中研发垂直领域大模型、构建专业智能体提供坚实的数据支撑，是提升上海检察新质战斗力的重要途径。推进检察语料库建设的规范化与体系化已成必然趋势，已成为当前的战略任务。</p>
+</blockquote>
+<p>高质量数据集的建设边界已经“由原始记录、训练样本和标注结果，逐步扩展到知识片段、业务规则、任务样本、运行轨迹、正负案例与反馈结果”。数据集所承载的内容，也由“模型需要学习什么”进一步走向“智能系统依据什么理解问题、形成判断并完成任务”。然而，通过RAG技术为大语言模型外挂“知识”，解决的只是知识供给问题，并不能实质提升大语言模型的推理能力——检索增强生成仍然是一个概率生成过程，其输出的本质仍是“概率结果”而非“规则结果”。要求大语言模型返回“规则结果”，最核心的是要将检察官掌握的办案逻辑、监督规则和证据标准转化为可被技术系统识别和执行的规范，这就需要持续深入研究本体智能。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p><img src="https://ftp.acsy.com/img/ai3.png" alt="人工智能三大流派"></p>
+<p>联想到人工智能的三大学派：符号主义、连接主义、行为主义。连接主义擅感知，产出“概率结果”；符号主义擅推理，追求“规则结果”。大语言模型正是连接主义的产物，而本体智能的路径，本质上是在连接主义的架构上引入符号主义的严谨性——将大模型的“想象力”锚定在检察业务的语义层之上，让分析过程可见、可溯，最终把判断权交还检察官。</p>
+<p>什么是智慧？这是哲学家与科学家共同追问的命题。若算力无限、时间无限，基于连接主义的大语言模型或许真能无需显式建模便理解业务语义。把三大学派放进时间的长河里，本无对错之分。将来，符号主义、连接主义与行为主义可能走向融合，其背后的计算科学、神经科学与认知科学也可能殊途同归。而对当下而言，重要的不是等待，而是选择：让当前的人工智能，做它当前擅长的事——这或许也是检察智能化最关键的启示。</p>
+<p>那么，问题来了：当前检察机关智能化应用，比如基于罪名的检察智能化项目，您认为，应当如何推进？</p>
+<p>（作者分别为新疆生产建设兵团人民检察院党组成员、副检察长申云天，四川省成都市人民检察院数字检察办公室副主任、四级高级检察官徐彬）</p>
+<p>微信公众号-法数纵横：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/fypWUe_NW_t_4mD5ziUVHA">当大模型在案件审查时“一本正经地胡说八道”，它算有智慧吗？</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2026/no-shuzhi2.html" rel="prev" title="不说“数智检察”——从遗憾的更名说起">
+                  <i class="fa fa-angle-left"></i> 不说“数智检察”——从遗憾的更名说起
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Robin</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+</body>
+</html>
